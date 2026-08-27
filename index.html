@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Follow Cissy and Bud as they travel America in their Revel van—stories, routes, photos, and the honest texture of life on the road.">
+  <meta name="theme-color" content="#17352d">
+  <title>Cissy & Bud | The Long Way Home</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Cissy and Bud home">
+      <span class="brand-mark" aria-hidden="true">C<span>&</span>B</span>
+      <span class="brand-text">Cissy & Bud<small>The long way home</small></span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="#journal">Journal</a>
+      <a href="#route">Our route</a>
+      <a href="#about">Our story</a>
+      <a href="#support">Support</a>
+      <a class="nav-cta" href="#newsletter">Ride along</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">Two people · One Revel · Plenty of wrong turns</p>
+        <h1 id="hero-title">We’re taking<br><em>the long way home.</em></h1>
+        <p class="hero-copy">Come along as we cross America in our van—one small town, wild campsite, roadside meal, and hard-earned lesson at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#journal">Read the latest</a>
+          <a class="text-link light-link" href="#route">See where we’re headed <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <aside class="hero-note" aria-label="Next chapter">
+        <span class="note-label">The first chapter</span>
+        <strong>California → the Southern Route</strong>
+        <span>Beginning October 2026</span>
+      </aside>
+      <div class="scroll-cue" aria-hidden="true"><span></span>SCROLL</div>
+    </section>
+
+    <section class="welcome section-shell" aria-labelledby="welcome-title">
+      <div class="welcome-heading">
+        <p class="eyebrow">Hello from the road</p>
+        <h2 id="welcome-title">The view is better when you slow down.</h2>
+      </div>
+      <div class="welcome-copy">
+        <p>We’re David and Cassie—also known around here as Bud and Cissy. This is the organized home for the stories that don’t fit into a Reel: the people we meet, the places that surprise us, and what van life actually feels like.</p>
+        <a class="text-link" href="#about">Meet the travelers <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="journal" id="journal" aria-labelledby="journal-title">
+      <div class="section-shell">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow">Field notes</p>
+            <h2 id="journal-title">From the travel log</h2>
+          </div>
+          <div class="filter-group" aria-label="Filter journal entries" data-filters>
+            <button class="filter is-active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="road">Road</button>
+            <button class="filter" type="button" data-filter="camp">Camp</button>
+            <button class="filter" type="button" data-filter="food">Food</button>
+          </div>
+        </div>
+
+        <div class="story-grid" data-story-grid>
+          <article class="story-card story-featured" data-category="road">
+            <button class="story-open" type="button" data-story="launch" aria-label="Open story: Why we chose the road">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85" alt="A camper van parked beside a quiet mountain road" loading="eager">
+              <span class="story-shade"></span>
+              <span class="story-content light">
+                <span class="story-meta">The beginning · 6 min read</span>
+                <strong>Why we chose the road—and what we hope to find</strong>
+                <span class="read-more">Read the preview <span aria-hidden="true">→</span></span>
+              </span>
+            </button>
+          </article>
+
+          <article class="story-card" data-category="camp">
+            <button class="story-open" type="button" data-story="revel" aria-label="Open story: Making a Revel feel like home">
+              <img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=1100&q=85" alt="A camper set up beneath tall trees" loading="lazy">
+              <span class="story-content">
+                <span class="story-meta">Van life · 4 min read</span>
+                <strong>Making a Revel feel like home</strong>
+                <span class="read-more">Read the preview <span aria-hidden="true">→</span></span>
+              </span>
+            </button>
+          </article>
+
+          <article class="story-card" data-category="food">
+            <button class="story-open" type="button" data-story="table" aria-label="Open story: The best table might be outside">
+              <img src="https://images.unsplash.com/photo-1475483768296-6163e08872a1?auto=format&fit=crop&w=1100&q=85" alt="Friends sharing a meal outdoors in warm evening light" loading="lazy">
+              <span class="story-content">
+                <span class="story-meta">Roadside tables · 3 min read</span>
+                <strong>The best table might be outside</strong>
+                <span class="read-more">Read the preview <span aria-hidden="true">→</span></span>
+              </span>
+            </button>
+          </article>
+        </div>
+        <p class="prototype-note">Sample stories show the intended design. David and Cassie’s real entries, photos, and Reels will replace them.</p>
+      </div>
+    </section>
+
+    <section class="route" id="route" aria-labelledby="route-title">
+      <div class="section-shell route-layout">
+        <div class="route-copy">
+          <p class="eyebrow warm">The road ahead</p>
+          <h2 id="route-title">From the Pacific to Cincinnati—then north to Alaska.</h2>
+          <p>Our first long arc runs west to east along the southern route. After spring in Cincinnati, we’ll point the Revel toward Alaska and work our way back to Seattle.</p>
+          <ol class="route-list">
+            <li><span>01</span><div><strong>California</strong><small>Family, a wedding, and the starting line · Fall 2026</small></div></li>
+            <li><span>02</span><div><strong>The Southern Route</strong><small>Small towns, open roads, and warmer weather</small></div></li>
+            <li><span>03</span><div><strong>Texas</strong><small>A full month of winter wandering · February 2027</small></div></li>
+            <li><span>04</span><div><strong>Florida</strong><small>Coastlines and old friends · March 2027</small></div></li>
+            <li><span>05</span><div><strong>Cincinnati → Alaska → Seattle</strong><small>The northern chapter · May–September 2027</small></div></li>
+          </ol>
+        </div>
+        <div class="route-art" aria-label="Stylized illustration of the route across the United States">
+          <svg viewBox="0 0 720 620" role="img" aria-labelledby="map-title map-desc">
+            <title id="map-title">Cissy and Bud's planned route</title>
+            <desc id="map-desc">A decorative route runs from California along the southern United States to Florida and Cincinnati, followed by a northwestern route toward Alaska and Seattle.</desc>
+            <path class="map-land" d="M97 151L145 109l83-26 70 19 62-21 58 35 82 11 50 53 80 17 25 54-24 55 20 62-47 40-21 58-60 31-75-7-52 22-74-32-69 8-56-36-48-6-24-58-55-21-18-63 27-47-25-61 42-40z"/>
+            <path class="map-route-back" d="M128 256C230 405 346 451 559 375C628 350 611 288 573 270"/>
+            <path class="map-route" d="M128 256C230 405 346 451 559 375C628 350 611 288 573 270"/>
+            <path class="map-route-north" d="M349 430C361 310 294 244 221 185C166 140 116 83 108 26"/>
+            <g class="map-stop"><circle cx="128" cy="256" r="11"/><text x="85" y="238">CALIFORNIA</text></g>
+            <g class="map-stop"><circle cx="362" cy="428" r="11"/><text x="330" y="465">TEXAS</text></g>
+            <g class="map-stop"><circle cx="573" cy="270" r="11"/><text x="590" y="268">FLORIDA</text></g>
+            <g class="map-stop"><circle cx="461" cy="208" r="11"/><text x="429" y="190">CINCINNATI</text></g>
+            <g class="map-stop"><circle cx="108" cy="26" r="11"/><text x="127" y="32">ALASKA</text></g>
+            <g class="van-icon" transform="translate(273 397)">
+              <rect x="0" y="0" width="51" height="29" rx="7"/><path d="M51 9h12l10 11v9H51z"/><circle cx="14" cy="31" r="6"/><circle cx="58" cy="31" r="6"/>
+            </g>
+          </svg>
+          <div class="route-stamp"><span>12</span><small>months<br>on the move</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-photo">
+        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1500&q=85" alt="A couple relaxing together outdoors" loading="lazy">
+        <div class="photo-caption">Portrait placeholder · Your photo goes here</div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">Our story</p>
+        <h2 id="about-title">Not retired from life.<br>Just taking it outside.</h2>
+        <p>We’re a married couple from Cincinnati with a Revel van, an appetite for discovery, and a growing stack of stories. Cassie captures the daily magic in Reels. David tends to ask what it all means. Together, we’re learning how much life can fit into a small space.</p>
+        <p>This first version leaves room for the real backstory—built through a short interview with Nombo and written in your own voice.</p>
+        <a class="button button-dark" href="#newsletter">Come along with us</a>
+      </div>
+    </section>
+
+    <section class="support section-shell" id="support" aria-labelledby="support-title">
+      <div class="support-intro">
+        <p class="eyebrow">Make the road longer</p>
+        <h2 id="support-title">Support the journey.<br>Take a little piece home.</h2>
+        <p>The first public release can add two simple revenue experiments without overwhelming the travel story.</p>
+      </div>
+      <div class="support-options">
+        <article>
+          <span class="option-number">01</span>
+          <div><h3>Join the campfire</h3><p>A future Patreon space for bonus route notes, trip planning details, and behind-the-scenes updates.</p></div>
+          <span class="coming-soon">Patreon · coming soon</span>
+        </article>
+        <article>
+          <span class="option-number">02</span>
+          <div><h3>Wear the adventure</h3><p>A small print-on-demand shop with van-life shirts and road-tested designs—no inventory required.</p></div>
+          <span class="coming-soon">Shop · coming soon</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="newsletter-inner section-shell">
+        <div>
+          <p class="eyebrow warm">Postcards, minus the stamp</p>
+          <h2 id="newsletter-title">Get the good stories<br>sent your way.</h2>
+        </div>
+        <form class="signup-form" data-signup-form>
+          <label for="signup-email">Email address</label>
+          <div class="input-row">
+            <input id="signup-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <button type="submit" class="button button-warm">Ride along</button>
+          </div>
+          <p class="form-note" data-form-note>No spam. Just a thoughtful note when there’s a story worth sharing.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top section-shell">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">C<span>&</span>B</span><span class="brand-text">Cissy & Bud<small>The long way home</small></span></a>
+      <p>Stories from America’s back roads,<br>made with curiosity in a Revel van.</p>
+      <div class="social-links" aria-label="Social media placeholders">
+        <a href="#" data-placeholder-link>Instagram</a>
+        <a href="#" data-placeholder-link>Facebook</a>
+        <a href="#" data-placeholder-link>YouTube</a>
+      </div>
+    </div>
+    <div class="footer-bottom section-shell">
+      <span>© <span data-year></span> Cissy & Bud</span>
+      <span>Version-one prototype · Built with Nombo</span>
+    </div>
+  </footer>
+
+  <dialog class="story-dialog" data-story-dialog>
+    <button class="dialog-close" type="button" aria-label="Close story" data-dialog-close>×</button>
+    <p class="eyebrow" data-dialog-kicker>Story preview</p>
+    <h2 data-dialog-title></h2>
+    <div data-dialog-body></div>
+    <p class="dialog-note">This is sample editorial content for the prototype. Your interviews, photos, and road notes will shape the final story.</p>
+  </dialog>
+</body>
+</html>
