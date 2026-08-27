@@ -1,3 +1,7 @@
+const HERO_IMAGE_URL = 'https://nombo-api.fly.dev/attachments/d281f6b7-2b00-497c-b3a1-151f13e14e81/raw?token=1819392529746.a8f9145023bd1fda5b0723fc9c67e624ff1d5273ed8ff4b5222fe9b9718d9c1a';
+const heroImage = document.querySelector('.hero-image');
+if (heroImage) heroImage.style.backgroundImage = `url("${HERO_IMAGE_URL}")`;
+
 const toggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('#site-nav');
 
