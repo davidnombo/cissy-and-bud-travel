@@ -1,39 +1,46 @@
-# Cissy & Bud — Travel Website v1
+# Cissy & Bud — Travel Website MVP
 
-A public, responsive prototype for David and Cassie's travel journal.
+A public, responsive travel-journal prototype for David and Cassie.
 
 ## Canonical brief
 
-Built from the Google Doc **Travel Website** (version-one canonical requirements). The prototype includes:
+Built from the Google Doc **Travel Website** (version-one canonical requirements). The current MVP includes:
 
-- Photo-forward home page and travel-journal preview
-- 2026–27 journey outline
-- Reels, short-film, and field-note direction
-- About-story placeholder for a future Nombo interview
-- Newsletter, Patreon, and print-on-demand concepts clearly marked as unconnected prototypes
+- Real Echo Canyon hero photography
+- Nine-photo road journal featuring Death Valley, Highway 1, Mustang Island, Las Cienegas, and the Arizona desert
+- Three editorial highlight cards with working draft captions
+- Planned 2026–27 route overview
+- Short-film placeholder ready for the first two videos
+- About-story draft ready for the next focused writing pass
 - Responsive navigation and accessible semantic structure
 
 ## Preview
 
 GitHub Pages: <https://davidnombo.github.io/cissy-and-bud-travel/>
 
-## Current prototype limitations
+## Current MVP limitations
 
-- Journal stories and portraits use intentional placeholders until David and Cassie provide source material.
+- Photo captions and About copy are working drafts.
+- Video playback will be connected after the first video links are selected.
 - Newsletter submission is a safe demo and stores nothing.
 - Patreon, store, custom domain, analytics, and a content intake workflow are not connected yet.
 
+## Privacy and performance
+
+The nine web images are resized and compressed for fast loading. Embedded EXIF metadata, including GPS coordinates, has been removed from the published copies. Originals remain outside the repository.
+
 ## Recommended next build cycle
 
-1. Brand/name decision and About interview
-2. Upload real photos and one representative Reel
-3. Choose a domain
-4. Connect a simple travel-entry intake workflow
-5. Connect email signup, analytics, Patreon, and print-on-demand only after the core journal is approved
+1. Polish one text section with David
+2. Add one or two representative videos
+3. Review the MVP with Cassie
+4. Decide on the brand name and domain
+5. Connect newsletter and content intake only after the core story is approved
 
 ## Files
 
-- `index.html` — page content and structure
-- `styles.css` — responsive design system
+- `index.html` — page content, image references, and structure
+- `styles.css` — responsive design system and photo gallery
 - `script.js` — mobile navigation and prototype interactions
-- Hero image — temporary Unsplash placeholder by Daniel J. Schwarz, loaded from Unsplash’s image CDN
+
+For this MVP, optimized metadata-free image copies are served from durable Nombo asset links referenced by the GitHub Pages site. The original photos are not stored in the public repository.
