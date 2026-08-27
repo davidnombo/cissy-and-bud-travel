@@ -1,6 +1,6 @@
 # Cissy & Bud — Travel Website MVP
 
-A public, responsive travel-journal prototype for David and Cassie.
+A public, responsive travel-journal prototype for Cassie and David.
 
 ## Canonical brief
 
