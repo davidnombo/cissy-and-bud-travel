@@ -1,10 +1,9 @@
-name: Import travel photos
+name: Import verified travel photos
 
 on:
   push:
     branches: [main]
     paths:
-      - 'index.html'
       - '.github/workflows/import-travel-photos.yml'
 
 permissions:
@@ -15,24 +14,51 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download the nine approved travel photos
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download David and Cassie's nine travel photos
         run: |
           set -euo pipefail
-          mkdir -p assets/photos
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/9e5b12c4-9dd9-4a24-bab6-3c4c25bcd483/raw?token=1819393420686.7b8cd503fd8571f063e50772ef79c050a735f021b86339e4252e9f57d0cf627d' --output 'assets/photos/echo-canyon.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/a8da5be5-ccf6-4280-b545-ad4a2ec2450d/raw?token=1819393420104.e3e216bd529a4d81ac466c6eb601afbe69063e10f172c810f48b4ddc63e2ed22' --output 'assets/photos/death-valley-wide.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/23cf0ee2-85c8-4cff-9d77-714407118278/raw?token=1819393420437.13827b1ccedb9ba381a70ef1cc4ac2bd8ae7a516e0f567ba23c2df295df1ee04' --output 'assets/photos/highway-1-jenner.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/391e460f-6af2-480c-bf86-dc4f99589b1d/raw?token=1819393424339.cb498721ef729f1a43cd240dea388c3b245aec4a837a08596573948a2082e402' --output 'assets/photos/mustang-island.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/9da9c930-3674-41ee-bc42-7765dcd3b6fe/raw?token=1819393420231.dc81b065661489f229179b0e3664e3549dc6279b111f35f2839600082d1ae65c' --output 'assets/photos/death-valley-van.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/23e3a258-6447-4c14-acc4-1347cef32f7c/raw?token=1819393424266.b3014a0418ef30c6a46d14c820200c8ca285e2ef2299bc6a7018fcf8147409ff' --output 'assets/photos/cassie-pacific.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/5683be5a-32f6-4589-a764-2bc550398365/raw?token=1819393420577.10219b1d83fe5989a5c3a25862ffd2fc6d8bc5ea8705e842730686b4df87f9cf' --output 'assets/photos/las-cienegas.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/12a2c3d3-ca1a-4494-8d2c-389045a60a05/raw?token=1819393424399.5c093392403925070426d80a52fb3a38792f9d9f52feee5b21e42675b74e0355' --output 'assets/photos/redington-pass.jpg'
-          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/e0b13944-51c8-451e-b917-1a4f3461b612/raw?token=1819393420661.c44dafab1463e35902a8e4a85b4276494dd9ffce5b65bde57ac34a49498041b5' --output 'assets/photos/highway-1-camp.jpg'
-      - name: Verify and commit photos
+          mkdir -p source-photos assets/photos
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/4c84fb00-52a9-48b6-861c-f57c3d80e561/raw?token=1819393920108.ca1587067ab1a0a394539cfd54e21dd2a5a7fc98379c75f680ea03b0b2ec97f5' --output source-photos/mustang-island.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/061ea932-e252-4ab5-9fac-d9e39ccd635e/raw?token=1819393920130.ad9753f1d1c9ba932aa82879fac03568e165d2c61931cb2c200ad2c67b6c939a' --output source-photos/las-cienegas.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/4f0f2557-e7af-420d-bf11-5cda860be2ac/raw?token=1819393920151.9b5ec95922eb376a5e25a0516d87d0d341d83c438facd50678368ce18b86740c' --output source-photos/redington-pass.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/bd7a1fe5-239f-45ed-a2c7-db30275391c7/raw?token=1819393920168.3e67f28317f10dfef032288f62402da3fab7bba28d23611e6c96ffd4961b4e25' --output source-photos/death-valley-van.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/fad29e59-5bc0-4b75-901c-ccf7c7a0ccdb/raw?token=1819393920185.2beb26bdb3fe385cc98761c363df9dea3dc9992dc537825fd4ec7642378400b1' --output source-photos/death-valley-wide.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/8ed3f04f-f87a-4471-82ec-27efe0096343/raw?token=1819393920201.380caa21fa633c4c4f6edc437f9afa2eb86d24fee7ef3fd8eddf107f4562d6cb' --output source-photos/highway-1-camp.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/97463592-ac38-4443-8592-2d3c33673775/raw?token=1819393920222.aceec93fc7dd7fc5827a6edd8d175a6f77ea7e12d02456deefc857ed44c412c4' --output source-photos/highway-1-jenner.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/3a303fdc-1a1e-401f-b07a-238687fa009e/raw?token=1819393920240.23c5e423f59e56ab243103d5f3fa6aad0204342a4358e1f380ffea995b7b78bd' --output source-photos/echo-canyon.jpg
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/4a24dd45-bec8-4019-9d67-d4925bdf4009/raw?token=1819393920257.a50724dafc130aea1b467bbad9343f6450ff53f3a4f918f20ab37fcf3fca9876' --output source-photos/cassie-pacific.jpg
+      - name: Optimize photos and remove embedded location metadata
         run: |
-          test "$(find assets/photos -type f -size +20k | wc -l)" -eq 9
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/photos
-          git commit -m "Add nine travel photos as durable site assets" || exit 0
+          python -m pip install --quiet Pillow
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageOps
+          src = Path('source-photos')
+          out = Path('assets/photos')
+          files = sorted(src.glob('*.jpg'))
+          assert len(files) == 9, f'Expected 9 photos, found {len(files)}'
+          for path in files:
+              with Image.open(path) as image:
+                  image = ImageOps.exif_transpose(image).convert('RGB')
+                  image.thumbnail((1400, 1400), Image.Resampling.LANCZOS)
+                  destination = out / path.name
+                  image.save(destination, 'JPEG', quality=76, optimize=True, progressive=True)
+              with Image.open(destination) as check:
+                  assert check.format == 'JPEG'
+                  assert len(check.getexif()) == 0
+                  assert check.width >= 1000 and check.height >= 1000
+                  print(path.name, check.size, destination.stat().st_size)
+          PY
+      - name: Commit durable web-ready photos
+        run: |
+          set -euo pipefail
+          rm -rf source-photos
+          rm -f .github/workflows/import-travel-photos.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A assets/photos .github/workflows/import-travel-photos.yml
+          git commit -m 'Publish nine optimized travel photos'
           git push
