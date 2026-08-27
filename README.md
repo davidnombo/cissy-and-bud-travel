@@ -42,4 +42,4 @@ The nine web images are resized and compressed for fast loading. Embedded EXIF m
 - `styles.css` — responsive design system and photo gallery
 - `script.js` — mobile navigation and prototype interactions
 
-For this MVP, optimized metadata-free image copies are served from durable Nombo asset links referenced by the GitHub Pages site. The original photos are not stored in the public repository.
+For this MVP, optimized metadata-free image copies are stored in `assets/photos/` and served directly by GitHub Pages. The original full-resolution photos remain outside the public repository.

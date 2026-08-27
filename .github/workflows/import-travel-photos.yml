@@ -1,0 +1,38 @@
+name: Import travel photos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - '.github/workflows/import-travel-photos.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import-photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the nine approved travel photos
+        run: |
+          set -euo pipefail
+          mkdir -p assets/photos
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/9e5b12c4-9dd9-4a24-bab6-3c4c25bcd483/raw?token=1819393420686.7b8cd503fd8571f063e50772ef79c050a735f021b86339e4252e9f57d0cf627d' --output 'assets/photos/echo-canyon.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/a8da5be5-ccf6-4280-b545-ad4a2ec2450d/raw?token=1819393420104.e3e216bd529a4d81ac466c6eb601afbe69063e10f172c810f48b4ddc63e2ed22' --output 'assets/photos/death-valley-wide.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/23cf0ee2-85c8-4cff-9d77-714407118278/raw?token=1819393420437.13827b1ccedb9ba381a70ef1cc4ac2bd8ae7a516e0f567ba23c2df295df1ee04' --output 'assets/photos/highway-1-jenner.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/391e460f-6af2-480c-bf86-dc4f99589b1d/raw?token=1819393424339.cb498721ef729f1a43cd240dea388c3b245aec4a837a08596573948a2082e402' --output 'assets/photos/mustang-island.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/9da9c930-3674-41ee-bc42-7765dcd3b6fe/raw?token=1819393420231.dc81b065661489f229179b0e3664e3549dc6279b111f35f2839600082d1ae65c' --output 'assets/photos/death-valley-van.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/23e3a258-6447-4c14-acc4-1347cef32f7c/raw?token=1819393424266.b3014a0418ef30c6a46d14c820200c8ca285e2ef2299bc6a7018fcf8147409ff' --output 'assets/photos/cassie-pacific.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/5683be5a-32f6-4589-a764-2bc550398365/raw?token=1819393420577.10219b1d83fe5989a5c3a25862ffd2fc6d8bc5ea8705e842730686b4df87f9cf' --output 'assets/photos/las-cienegas.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/12a2c3d3-ca1a-4494-8d2c-389045a60a05/raw?token=1819393424399.5c093392403925070426d80a52fb3a38792f9d9f52feee5b21e42675b74e0355' --output 'assets/photos/redington-pass.jpg'
+          curl --fail --location --retry 3 'https://nombo-api.fly.dev/attachments/e0b13944-51c8-451e-b917-1a4f3461b612/raw?token=1819393420661.c44dafab1463e35902a8e4a85b4276494dd9ffce5b65bde57ac34a49498041b5' --output 'assets/photos/highway-1-camp.jpg'
+      - name: Verify and commit photos
+        run: |
+          test "$(find assets/photos -type f -size +20k | wc -l)" -eq 9
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/photos
+          git commit -m "Add nine travel photos as durable site assets" || exit 0
+          git push
