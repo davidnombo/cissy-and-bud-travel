@@ -10,7 +10,6 @@ Built from the Google Doc **Travel Website** (version-one canonical requirements
 - Nine-photo road journal featuring Death Valley, Highway 1, Mustang Island, Las Cienegas, and the Arizona desert
 - Three editorial highlight cards with working draft captions
 - Planned 2026–27 route overview
-- Short-film placeholder ready for the first two videos
 - About-story draft ready for the next focused writing pass
 - Responsive navigation and accessible semantic structure
 
