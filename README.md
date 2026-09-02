@@ -1,45 +1,33 @@
 # Cissy & Bud — Travel Website MVP
 
-A public, responsive travel-journal prototype for Cassie and David.
+Responsive travel-journal preview for Cassie and David, built from the canonical **Travel Website** Google Doc.
 
-## Canonical brief
+## Live preview
 
-Built from the Google Doc **Travel Website** (version-one canonical requirements). The current MVP includes:
+https://davidnombo.github.io/cissy-and-bud-travel/
 
-- Real Echo Canyon hero photography
-- Nine-photo road journal featuring Death Valley, Highway 1, Mustang Island, Las Cienegas, and the Arizona desert
-- Three editorial highlight cards with working draft captions
-- Planned 2026–27 route overview
-- About-story draft ready for the next focused writing pass
-- Responsive navigation and accessible semantic structure
+## September 2026 rebuild
 
-## Preview
+- Six historical Field Note summaries, each marked for a pre-launch interview
+- Seven-photo **Minivan Years** essay using optimized, metadata-free copies
+- 2026–27 **Big Loop** route graphic and What's Next section
+- October 2, 2026 launch countdown and Road to California editorial series
+- Repeatable “Was it worth it?” trip-report format
+- Expanded About Us working draft using “we” and “Cassie and David” naming
+- Honest launch placeholders for print-on-demand gear, Patreon and email updates
+- Responsive navigation, accessible semantics and photo lightbox
 
-GitHub Pages: <https://davidnombo.github.io/cissy-and-bud-travel/>
+## Privacy and image handling
 
-## Current MVP limitations
+Published photographs are resized and recompressed without EXIF metadata. Original full-resolution files remain outside the public repository.
 
-- Photo captions and About copy are working drafts.
-- Video playback will be connected after the first video links are selected.
-- Newsletter submission is a safe demo and stores nothing.
-- Patreon, store, custom domain, analytics, and a content intake workflow are not connected yet.
+## Launch dependencies still open
 
-## Privacy and performance
-
-The nine web images are resized and compressed for fast loading. Embedded EXIF metadata, including GPS coordinates, has been removed from the published copies. Originals remain outside the repository.
-
-## Recommended next build cycle
-
-1. Polish one text section with David
-2. Add one or two representative videos
-3. Review the MVP with Cassie
-4. Decide on the brand name and domain
-5. Connect newsletter and content intake only after the core story is approved
+The canonical Google Doc contains the complete October 2 launch checklist. Key remaining work includes Field Note and About Us interviews, final copy and location review, real CRM/email signup, print shop, Patreon, domain/hosting decision, analytics, content intake/admin workflow, cross-device QA and Cassie’s approval.
 
 ## Files
 
-- `index.html` — page content, image references, and structure
-- `styles.css` — responsive design system and photo gallery
-- `script.js` — mobile navigation and prototype interactions
-
-For this MVP, optimized metadata-free image copies are stored in `assets/photos/` and served directly by GitHub Pages. The original full-resolution photos remain outside the public repository.
+- `index.html` — site structure and launch copy
+- `styles.css` — responsive visual system
+- `script.js` — navigation, countdown, image lightbox and preview-form behavior
+- `assets/photos/` — optimized public images
