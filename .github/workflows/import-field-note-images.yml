@@ -1,0 +1,66 @@
+name: Import Field Note photos
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/import-field-note-images.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download source photos
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .photo-import assets/photos/utah-2019
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/a542608c-b9df-44aa-8a98-31d2c8029c90/raw?token=1820002622921.ae304644886787779b6cb68f4f8e2d3f48ec3d71a3e2d65e41b8cd6c25d7dd58' -o .photo-import/boathenge-kansas.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/52b6f3e2-f84a-4aa3-8a77-c224c1e77183/raw?token=1820002623005.078b66adaebf848d80c711b0124dd4cb2077cba693bc3c6c2bfe487117f37ef1' -o .photo-import/estes-spencer.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/34f8745b-3b3c-4e59-aada-c81087f81e5b/raw?token=1820002623103.36b6f0741c1b2c598052677926d504f40181f968012d836bc45da47e86afff12' -o .photo-import/wilderness-toilet.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/5756c497-5be0-4eed-805a-a2dc170fc7df/raw?token=1820002623199.b0206b1884df130d23c44a5ff79d1184fadc5fcc7d3db4c73ca182633eea6b5b' -o .photo-import/gem-lake-trail.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/9e1758b0-926c-46c3-81e2-f2a83621c905/raw?token=1820002623283.d79494e8768523ab9af3181c062bab44a60ab7e72098bc0ced18d9a091f4dd82' -o .photo-import/delicate-arch.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/d64f4561-994a-4ec4-8cd2-f1ef1b241a12/raw?token=1820002623374.62827f8162e028f34052935f6fa5e73b6f0743b0db2cae99beaeb2f56714e106' -o .photo-import/capitol-reef-lunch.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/9ac004d0-f3a9-4730-a74b-b733827b21b9/raw?token=1820002623490.0af2adb8a7bbc9ca18139f78dd543029a' -o .photo-import/bryce-overlook.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/d39e29da-6276-4a0c-bf05-b4fdaa52e0c6/raw?token=1820002623582.479077bcd62001946ea08165e6cec7f96fc5ba75123805d0a68cb8c4674d2d7d' -o .photo-import/scout-lookout.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/5822683b-477e-4ff6-bc36-f0665be3ae32/raw?token=1820002624045.efda01727aabef6a92538ecbda6924df823f8e5a409fbce457faf0f245cb9a21' -o .photo-import/zion-switchbacks.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/820b22a5-66da-4f8e-b539-1e21c56850df/raw?token=1820002623675.6d56e534474bff4929e338ee0f727142ce74152fe9871391d76824f0a5e09492' -o .photo-import/cassie-switchbacks-rest.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/b6275164-58cb-49c8-a102-d72057c72166/raw?token=1820002623767.eb1b074cadc21de069f104901c41f8d084ae076e1846c7462ab9495ee277ecb0' -o .photo-import/utah-overlander.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/d981e7ef-ad46-4aa8-b26a-60551921fcfd/raw?token=1820002623953.d00e7a38e92107f08320c936d8c1181bdda5280815b6e8e9c4752a683102de63' -o .photo-import/prius-children.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/b30cf470-727a-4ed4-b6c0-40996768b174/raw?token=1819920614295.013a20fa8ae44f27004df04df69b7ea2755977433c1a54466734c6dd9300cde6' -o .photo-import/bisti-badlands.jpg
+          curl -fL --retry 3 'https://nombo-api.fly.dev/attachments/1158145b-5caa-4c41-a7df-fc3aa668c330/raw?token=1819920605500.ce623b25eed711bfb8e73851db0dcdae81c67387884f51eec87ff750d207202a' -o .photo-import/taylor-park.jpg
+      - name: Optimize web photos
+        run: |
+          python -m pip install --quiet pillow
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageOps
+          source = Path('.photo-import')
+          hero = {'delicate-arch.jpg', 'bisti-badlands.jpg', 'taylor-park.jpg'}
+          for src in source.glob('*.jpg'):
+              out_dir = Path('assets/photos') if src.name in {'bisti-badlands.jpg', 'taylor-park.jpg'} else Path('assets/photos/utah-2019')
+              out_dir.mkdir(parents=True, exist_ok=True)
+              image = ImageOps.exif_transpose(Image.open(src)).convert('RGB')
+              max_dim = 1600 if src.name in hero else 1200
+              scale = min(1, max_dim / max(image.size))
+              if scale < 1:
+                  image = image.resize((round(image.width * scale), round(image.height * scale)), Image.Resampling.LANCZOS)
+              image.save(out_dir / src.name, 'JPEG', quality=78, optimize=True, progressive=True)
+          PY
+      - name: Commit optimized photos
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .photo-import .github/workflows/import-field-note-images.yml
+          git config user.name 'Nombo site publisher'
+          git config user.email 'davidbrown367@gmail.com'
+          git add assets/photos .github/workflows/import-field-note-images.yml
+          git commit -m 'Add optimized Field Note photography'
+          git push
