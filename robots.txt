@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://davidnombo.github.io/cissy-and-bud-travel/sitemap.xml
