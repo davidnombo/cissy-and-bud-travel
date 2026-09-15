@@ -17,6 +17,11 @@ document.querySelectorAll('a.brand').forEach(a=>a.innerHTML=`<img class="brand-l
 document.querySelectorAll('.footer h2').forEach(e=>{if(e.textContent.trim()==='PourHouse')e.textContent='PourHouse Life'});
 document.querySelectorAll('.bottom span').forEach(e=>{if(e.childNodes.length===1)e.textContent=e.textContent.replace(/PourHouse$/,'PourHouse Life')});
 document.title=document.title.replace(/\| PourHouse$/,'| PourHouse Life').replace(/Cissy & Bud/g,'PourHouse Life');
+const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+for(let node;node=walker.nextNode();){
+  const parent=node.parentElement?.tagName;
+  if(parent!=='SCRIPT'&&parent!=='STYLE')node.nodeValue=node.nodeValue.replace(/Cissy\s*&\s*Bud|Cissy and Bud/g,'PourHouse Life');
+}
 
 if(location.pathname.endsWith('/prius-utah-2019.html')){
   document.title='Mighty V Passage | PourHouse Life';
