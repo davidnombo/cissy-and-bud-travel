@@ -1,1 +1,24 @@
-const b=document.querySelector('.menu'),n=document.querySelector('.links');if(b&&n)b.onclick=()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)};document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());const c=document.querySelector('[data-countdown]');if(c){const d=Math.max(0,Math.ceil((new Date('2026-10-02T09:00:00-04:00')-new Date())/864e5));c.textContent=d?`${d} days to departure`:'The Odyssey is underway'}const io='IntersectionObserver'in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.1}):null;document.querySelectorAll('.reveal').forEach(e=>io?io.observe(e):e.classList.add('visible'));document.querySelectorAll('[data-form]').forEach(f=>f.onsubmit=e=>{e.preventDefault();f.querySelector('small').textContent='Email signup is being connected before launch. No address was submitted.'});
+const b=document.querySelector('.menu'),n=document.querySelector('.links');
+if(b&&n)b.onclick=()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)};
+
+document.querySelectorAll('[data-year]').forEach(e=>e.textContent=new Date().getFullYear());
+
+const c=document.querySelector('[data-countdown]');
+if(c){const d=Math.max(0,Math.ceil((new Date('2026-10-02T09:00:00-04:00')-new Date())/864e5));c.textContent=d?`${d} days to departure`:'The Odyssey is underway'}
+
+const io='IntersectionObserver'in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.1}):null;
+document.querySelectorAll('.reveal').forEach(e=>io?io.observe(e):e.classList.add('visible'));
+
+document.querySelectorAll('[data-form]').forEach(f=>f.onsubmit=e=>{e.preventDefault();f.querySelector('small').textContent='Email signup is being connected before launch. No address was submitted.'});
+
+// Keep every modern page aligned with the canonical PourHouse Life identity.
+const logo='https://nombo-api.fly.dev/attachments/d280a721-47b1-4fb0-a57d-e5f21e864cce/raw?token=1821041445363.1a9ea9ad1d09267fdca20f8c0fbb5a6b65ab02b99600774456d84fc7ccad9b5d';
+document.querySelectorAll('a.brand').forEach(a=>a.innerHTML=`<img class="brand-logo" src="${logo}" alt="">PourHouse Life`);
+document.querySelectorAll('.footer h2').forEach(e=>{if(e.textContent.trim()==='PourHouse')e.textContent='PourHouse Life'});
+document.querySelectorAll('.bottom span').forEach(e=>{if(e.childNodes.length===1)e.textContent=e.textContent.replace(/PourHouse$/,'PourHouse Life')});
+document.title=document.title.replace(/\| PourHouse$/,'| PourHouse Life').replace(/Cissy & Bud/g,'PourHouse Life');
+
+if(location.pathname.endsWith('/prius-utah-2019.html')){
+  document.title='Mighty V Passage | PourHouse Life';
+  const h1=document.querySelector('h1');if(h1)h1.textContent='Mighty V Passage';
+}
