@@ -11,19 +11,22 @@ document.querySelectorAll('.reveal').forEach(e=>io?io.observe(e):e.classList.add
 
 document.querySelectorAll('[data-form]').forEach(f=>f.onsubmit=e=>{e.preventDefault();f.querySelector('small').textContent='Email signup is being connected before launch. No address was submitted.'});
 
-// Keep every modern page aligned with the canonical PourHouse Life identity.
-const logo='https://nombo-api.fly.dev/attachments/d280a721-47b1-4fb0-a57d-e5f21e864cce/raw?token=1821041445363.1a9ea9ad1d09267fdca20f8c0fbb5a6b65ab02b99600774456d84fc7ccad9b5d';
+// Keep every page aligned with the canonical PourHouse Life identity.
+const logo=location.pathname.includes('/field-notes/')?'../assets/pourhouse-life-logo.webp':'assets/pourhouse-life-logo.webp';
 document.querySelectorAll('a.brand').forEach(a=>a.innerHTML=`<img class="brand-logo" src="${logo}" alt="">PourHouse Life`);
-document.querySelectorAll('.footer h2').forEach(e=>{if(e.textContent.trim()==='PourHouse')e.textContent='PourHouse Life'});
-document.querySelectorAll('.bottom span').forEach(e=>{if(e.childNodes.length===1)e.textContent=e.textContent.replace(/PourHouse$/,'PourHouse Life')});
+document.querySelectorAll('.footer h2').forEach(e=>{if(/^(?:PourHouse|Cissy & Bud)$/.test(e.textContent.trim()))e.textContent='PourHouse Life'});
+document.querySelectorAll('.bottom span').forEach(e=>{if(e.childNodes.length===1)e.textContent=e.textContent.replace(/(?:Cissy & Bud|PourHouse)$/,'PourHouse Life')});
 document.title=document.title.replace(/\| PourHouse$/,'| PourHouse Life').replace(/Cissy & Bud/g,'PourHouse Life');
 const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
 for(let node;node=walker.nextNode();){
   const parent=node.parentElement?.tagName;
-  if(parent!=='SCRIPT'&&parent!=='STYLE')node.nodeValue=node.nodeValue.replace(/Cissy\s*&\s*Bud|Cissy and Bud/g,'PourHouse Life');
+  if(parent!=='SCRIPT'&&parent!=='STYLE')node.nodeValue=node.nodeValue
+    .replace(/Cissy\s*&\s*Bud|Cissy and Bud/g,'PourHouse Life')
+    .replace(/77-day PCH-Ex/g,'77-night PCH-Ex');
 }
 
 if(location.pathname.endsWith('/prius-utah-2019.html')){
   document.title='Mighty V Passage | PourHouse Life';
   const h1=document.querySelector('h1');if(h1)h1.textContent='Mighty V Passage';
+  const intro=document.querySelector('.feature-copy>p:last-child');if(intro)intro.textContent=intro.textContent.replace('five national parks','four Utah national parks');
 }
