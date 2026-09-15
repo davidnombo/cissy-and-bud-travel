@@ -1,4 +1,4 @@
-# Cissy & Bud — Travel Website MVP
+# PourHouse Life — Travel Website
 
 Responsive travel-journal preview for Cassie and David, built from the canonical **Travel Website** Google Doc.
 
