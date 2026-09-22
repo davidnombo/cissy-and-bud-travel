@@ -1,0 +1,46 @@
+name: Add Northwest Hotlap photos
+
+on:
+  push:
+    paths:
+      - ".github/workflows/sync-northwest-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  add-photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download optimized field-note photos
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/photos/northwest-hotlap
+          curl -fL 'https://nombo-api.fly.dev/attachments/42f6d5f1-c25d-4f48-a6df-b2f0459fce86/raw?token=1821655213210.9927bce0389e8b0ef5d3200ebeeb484a8fb4b95c6e68eb3e3a14a77fb452c74d' -o assets/photos/northwest-hotlap/crater-lake-daylight.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/518ff0cc-de8e-4313-967b-e34d2cdd1750/raw?token=1821655214698.091fc7e05f364083380b77baaaa9746b96e5b47be6d7f01ab19ca41b8b68a4cc' -o assets/photos/northwest-hotlap/crater-lake-dusk.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/2a40b8bf-69c3-40db-930d-321d5bfc8ade/raw?token=1821655214899.eae32532bafd2bac19d6a12e2115fb3b805e6d31d725904af376bb94086deb93' -o assets/photos/northwest-hotlap/haystack-rock.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/0d822f68-66e6-4c5a-b96c-84ce932f59c4/raw?token=1821655215355.f0b8373f5d5391c2f9a8dafd34ad51475f1aae1747a971fd572d480b539ea39d' -o assets/photos/northwest-hotlap/hurricane-ridge.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/1a70cc0d-23e1-4176-8c1c-13bbb15be9c3/raw?token=1821655215419.6fdbdc74529b4dc10b18b97d1e646c1af945cdff9847e0c3378e7cf9bcbed752' -o assets/photos/northwest-hotlap/mount-rainier-drive.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/5aefd329-78d3-498f-bb6d-ebcb8106ff2e/raw?token=1821655215981.b0783d0034a00eacfd900e44365d8d44b95e11075fdf31418df87def359ff531' -o assets/photos/northwest-hotlap/mount-rainier-reflection-lakes.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/a9b6b36e-7243-4417-9300-463746606949/raw?token=1821655216334.9a601264f4a18c4be4a7f7ec1783fca5ec9b43ecf9aff57864424f13029cd584' -o assets/photos/northwest-hotlap/mount-rainier-waterfall.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/47aa73ba-0470-4eea-9fc7-6149a122424c/raw?token=1821655217898.6a19fb2c35ab3a4093a469419dcbb4705c1d113cd2ca071dd1241521d7c30b00' -o assets/photos/northwest-hotlap/neskowin-pacific.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/ab41574f-4b0d-4939-bb91-41d5a3b43e07/raw?token=1821655218220.195c8420ab34766f67d3af9e93f99c18892641b85c6627bcdce1115344907b7a' -o assets/photos/northwest-hotlap/olympic-rainforest.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/c121ba8e-cf81-4c2a-a690-268d8a1a1d91/raw?token=1821655217488.2c959abbf34fbee3137d69e14ff041596e40c3290a55662b67351418c89787ed' -o assets/photos/northwest-hotlap/oregon-coast-overlook.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/27b7ae57-0bc7-41b2-8ea4-35dd344435d3/raw?token=1821655218330.724f3bb341729d91db03df91f696caacd39e8e848fe8b825459dc0421ce6158c' -o assets/photos/northwest-hotlap/oregon-coast-warning.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/1441dda8-d054-4c69-a0dc-1bbdd2746a0d/raw?token=1821655218476.317e67f97bd191558d07cca5018803460215be4eccc97c52ef93dffeda8842c9' -o assets/photos/northwest-hotlap/pacific-banana-slug.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/1122d823-098f-44fa-b90a-282e28e0d25f/raw?token=1821655219353.03b5869f1f61eb7a11732c656718db84b6f1591535e6b5847e5895f1fbcb4f78' -o assets/photos/northwest-hotlap/seaside-bubbles.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/680d25c1-139d-49ef-868d-d6b7b4b15774/raw?token=1821655219029.33157edd6c28f67db6ccea966f0c0b5c18d9384b2dda7eb3f291ed20e07fd0a2' -o assets/photos/northwest-hotlap/stevens-canyon-stream.webp
+          curl -fL 'https://nombo-api.fly.dev/attachments/c7ef3ce7-b0a1-4415-bc1e-c8891de3936a/raw?token=1821655219830.f16b1271fab242d535ea14c26336ecf01dc5dbfd7a573d0178eef8c67af6c402' -o assets/photos/northwest-hotlap/washington-jogging-sign.webp
+          test "$(find assets/photos/northwest-hotlap -type f -size +1000c | wc -l)" -eq 15
+      - name: Commit photos
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Nombo"
+          git config user.email "davidbrown367@gmail.com"
+          git add assets/photos/northwest-hotlap
+          git diff --cached --quiet && exit 0
+          git commit -m "Add Northwest Hotlap field-note photos"
+          git push
