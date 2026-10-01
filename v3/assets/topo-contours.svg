@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" aria-hidden="true">
+  <defs>
+    <!-- Every family repeats one radial outline at smaller scales. Because the
+         outlines share a center and shape, adjacent elevation lines stay nested. -->
+    <path id="ridge-a" d="M 0,-172 C 46,-168 95,-143 131,-107 C 166,-72 179,-26 169,20 C 161,62 137,104 97,133 C 57,161 8,176 -39,166 C -84,157 -127,133 -151,96 C -176,58 -184,10 -170,-34 C -156,-79 -126,-119 -86,-145 C -57,-163 -28,-174 0,-172 Z"/>
+    <path id="ridge-b" d="M 0,-158 C 39,-155 77,-138 111,-111 C 145,-83 166,-44 163,-2 C 160,40 139,81 106,111 C 73,141 29,159 -16,156 C -61,153 -104,134 -132,101 C -160,69 -174,26 -165,-17 C -156,-60 -131,-99 -96,-126 C -64,-150 -31,-161 0,-158 Z"/>
+    <path id="ridge-c" d="M 0,-184 C 52,-182 101,-158 139,-120 C 176,-82 191,-31 180,19 C 170,67 140,109 98,139 C 56,169 5,184 -46,172 C -95,160 -137,130 -160,88 C -184,45 -187,-6 -169,-52 C -151,-98 -116,-137 -71,-162 C -45,-176 -21,-183 0,-184 Z"/>
+  </defs>
+  <g fill="none" stroke="#637364" stroke-width="0.85" vector-effect="non-scaling-stroke">
+    <g transform="translate(220 205)">
+      <use href="#ridge-a"/><use href="#ridge-a" transform="scale(.88)"/><use href="#ridge-a" transform="scale(.76)"/>
+      <use href="#ridge-a" transform="scale(.64)"/><use href="#ridge-a" transform="scale(.52)"/><use href="#ridge-a" transform="scale(.40)"/>
+      <use href="#ridge-a" transform="scale(.28)"/><use href="#ridge-a" transform="scale(.16)"/>
+    </g>
+    <g transform="translate(795 195)">
+      <use href="#ridge-b"/><use href="#ridge-b" transform="scale(.87)"/><use href="#ridge-b" transform="scale(.74)"/>
+      <use href="#ridge-b" transform="scale(.61)"/><use href="#ridge-b" transform="scale(.48)"/><use href="#ridge-b" transform="scale(.35)"/>
+      <use href="#ridge-b" transform="scale(.22)"/>
+    </g>
+    <g transform="translate(465 650)">
+      <use href="#ridge-c"/><use href="#ridge-c" transform="scale(.89)"/><use href="#ridge-c" transform="scale(.78)"/>
+      <use href="#ridge-c" transform="scale(.67)"/><use href="#ridge-c" transform="scale(.56)"/><use href="#ridge-c" transform="scale(.45)"/>
+      <use href="#ridge-c" transform="scale(.34)"/><use href="#ridge-c" transform="scale(.23)"/><use href="#ridge-c" transform="scale(.12)"/>
+    </g>
+    <g transform="translate(1020 660)">
+      <use href="#ridge-a" transform="scale(.72)"/><use href="#ridge-a" transform="scale(.60)"/><use href="#ridge-a" transform="scale(.48)"/>
+      <use href="#ridge-a" transform="scale(.36)"/><use href="#ridge-a" transform="scale(.24)"/><use href="#ridge-a" transform="scale(.12)"/>
+    </g>
+    <g transform="translate(1050 385)">
+      <use href="#ridge-b" transform="scale(.46)"/><use href="#ridge-b" transform="scale(.33)"/><use href="#ridge-b" transform="scale(.20)"/>
+    </g>
+  </g>
+</svg>

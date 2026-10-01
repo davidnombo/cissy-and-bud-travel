@@ -1,0 +1,20 @@
+{
+  "status": "All six public albums verified in browser. The canonical California Expedition album is imported in full for its Field Note rotation; other albums retain their initial local selections. Gallery changes require David\u2019s explicit prompt.",
+  "albums": {
+    "Mighty V Passage": "https://www.icloud.com/sharedalbum/#D2Lv3GfsnpeF5oVpZ-d66wUB56wCAEQARog084EvmE2ILs69I83XCYH57ANKFr8FSQLnU2uGKLJoUc",
+    "Northwest Hot-Lap": "https://www.icloud.com/sharedalbum/#D2Lv3J2ZSUym_d83sgEOnFyRxIQCAEQARogQoSddYqLP_nAK6QDIaVF6OYYmgLY2_VmygyQgKygoyA",
+    "Great Western Loop": "https://www.icloud.com/sharedalbum/#D2Lv3KWq4wIqlE1iJP1uIsMKl6gCAEQARogU7_9KnosYsrEOQpaXusKmo7T6dVMJFua2r0-xCNIbmg",
+    "Pacific Coast Highway Expedition": "https://www.icloud.com/sharedalbum/#D2Lv3HWsesr-n8Os-XJ139JzjCACAEQARogkiLPh4YrnV0eCpuRzbB4EjZNKSnTyOU6A65zuvXtqkY",
+    "Southern Colorado Expedition": "https://www.icloud.com/sharedalbum/#D2Lv3IfWMNbTYwsGW0WzsJvN--wCAEQARogqnGqCYZuTVoLqZchKlVJJ-qlbBeKHIh74_o5-dx-1DQ",
+    "California Expedition": "https://www.icloud.com/sharedalbum/#D2Lv3pprpIwUamP8jUh_Uob-slwCAEQARoggbOpFgwRKFr5Jsoc4mY3eT-nnrs1xASrkGTg4cHAlnw"
+  },
+  "field_note_import_counts": {
+    "california-expedition": 57,
+    "prius-utah-2019": 4,
+    "northwest-hot-lap": 7,
+    "great-western-loop": 14,
+    "pch-ex": 8,
+    "socoex": 4
+  },
+  "launch_build_1_gwl": "Added six distinct full-size photographs after visual review; retained all eight working photos. Other downloads were thumbnails or failed, so this is not a complete album import."
+}

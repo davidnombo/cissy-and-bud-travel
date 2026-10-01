@@ -1,0 +1,22 @@
+.article-top{display:flex;justify-content:space-between;gap:20px;font-size:11px;padding-block:25px}.article-top span{color:#59675d}.story-header{padding:24px 0 30px}.story-header h1{max-width:1000px}.story-header .intro{margin:0}.story-photo{height:500px;overflow:hidden}.story-photo img{height:100%;object-fit:cover}.article{margin-block:45px 85px;padding:50px;display:grid;grid-template-columns:200px minmax(0,720px);gap:70px;background:var(--paper);align-items:start}.article aside{position:sticky;top:30px}.article .facts{grid-template-columns:1fr;margin:0;gap:0}.article .facts>div{padding:14px 0;border-bottom:1px solid var(--line)}.article .facts>div:last-child{border:0}.prose{font:400 18px/1.85 var(--serif)}.prose h2{font-size:29px;line-height:1.25;letter-spacing:-.6px;margin:45px 0 20px}.prose h2:first-child{margin-top:0}.prose p{margin-bottom:25px}.prose .lead{font-size:23px;line-height:1.6}.prose figure{margin:35px 0}.prose figure img{height:auto}.prose figcaption{font:400 12px/1.6 var(--sans)}.photo-unavailable{display:grid;place-items:center;min-height:270px;padding:30px;text-align:center;background:var(--cream) url('../assets/topography.svg') center/800px;color:#536057;font:500 14px var(--sans);border:1px solid var(--line)}.story-next{border-top:1px solid var(--line);padding-top:30px;margin-top:45px}.story-next p:last-child{font:400 13px var(--sans);margin-top:25px}.story-next .text-link{font-size:14px;line-height:1.6}
+@media(max-width:1100px){.article{grid-template-columns:160px minmax(0,1fr);gap:35px;padding:35px}.story-photo{height:420px}}
+@media(max-width:700px){.article-top{font-size:10px;padding-block:20px}.story-header{padding:15px 0 28px}.story-header h1{font-size:46px}.story-photo{height:310px}.article{display:block;padding:27px 23px;margin-block:25px 55px}.article aside{position:static;margin-bottom:35px}.article .facts{grid-template-columns:1fr 1fr;gap:0 20px}.article .facts>div{border:0}.prose{font-size:17px;line-height:1.8}.prose .lead{font-size:21px}.prose h2{font-size:26px;margin-top:35px}.photo-unavailable{min-height:220px}}
+
+/* Every carousel owns a stable 4:3 viewport, independent of photo dimensions. */
+.photo-frame{background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.photo-frame .frame-image{position:relative;width:100%;aspect-ratio:4 / 3;overflow:hidden;background:var(--deep);isolation:isolate}
+.photo-frame .frame-image:before{content:'';position:absolute;inset:-24px;z-index:-1;background-image:linear-gradient(rgba(5,20,16,.38),rgba(5,20,16,.38)),var(--frame-bg);background-size:cover;background-position:center;filter:blur(18px);transform:scale(1.08)}
+.prose .photo-frame .frame-image img,.photo-frame .frame-image img{position:relative;width:100%;height:100%;object-fit:cover}
+.photo-frame.is-portrait .frame-image img{object-fit:contain}
+.photo-frame.story-photo{height:auto;overflow:hidden}
+.photo-frame figcaption{height:112px;overflow:hidden;padding:14px 18px 8px;font:400 12px/1.5 var(--sans);color:#536057}
+.frame-caption{display:block;height:3em;overflow:hidden}
+.california-expedition .frame-caption,.socoex .frame-caption,.pch-ex .frame-caption,.great-western-loop .frame-caption{height:1.5em;overflow:visible;white-space:nowrap;font-size:24px;line-height:1.5;letter-spacing:-.25px}
+.frame-controls{display:flex;align-items:center;justify-content:flex-end;gap:8px;min-height:44px}
+.frame-count{margin-right:auto;font-variant-numeric:tabular-nums}
+.frame-controls button{min-height:44px;min-width:44px;padding:8px;border:0;background:transparent;color:var(--ink);font:500 12px var(--sans);cursor:pointer}
+.frame-controls button:hover{background:var(--cream)}
+.frame-controls [data-pause]{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:700px){.photo-frame figcaption{height:132px;padding:12px 12px 4px}.frame-controls{gap:4px}.frame-caption{height:4.5em}.california-expedition .frame-caption,.socoex .frame-caption,.pch-ex .frame-caption,.great-western-loop .frame-caption{height:1.5em;font-size:clamp(11px,3.2vw,16px);letter-spacing:-.2px}}
+
+.photo-unavailable{background-image:url('../assets/public-domain-contours.svg')}

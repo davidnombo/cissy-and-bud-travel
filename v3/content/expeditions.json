@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "prius-utah-2019",
+    "title": "Mighty V Passage",
+    "facts": {
+      "Vehicle": "Prius V",
+      "When": "Nov 2019",
+      "Mileage": "5,000 miles",
+      "Duration": "3 weeks"
+    },
+    "heading": "Our smallest rig opened the largest door.",
+    "summary": "Spencer proposed a national-park trip from Denver to Las Vegas. We trusted Mighty V and discovered that the drive itself could become the trip.",
+    "image": "utah-2019/delicate-arch.jpg",
+    "alt": "Cassie, David and Spencer beneath Delicate Arch",
+    "dek": "Our smallest rig opened the largest door."
+  },
+  {
+    "slug": "northwest-hot-lap",
+    "title": "Northwest Hot-lap",
+    "facts": {
+      "Vehicle": "Rental Car",
+      "When": "Sep 2021",
+      "Mileage": "1,500 miles",
+      "Duration": "2 weeks"
+    },
+    "heading": "The Pacific Coast demands our attention.",
+    "summary": "The four of us followed U.S. 101 through rainforest, mist, and hundreds of miles beside an angry ocean.",
+    "image": "northwest-hotlap/olympic-rainforest.webp",
+    "alt": "Rainforest in Olympic National Park",
+    "dek": "The Pacific Coast demands our attention."
+  },
+  {
+    "slug": "great-western-loop",
+    "title": "Great Western Loop",
+    "facts": {
+      "Vehicle": "Ivan minivan",
+      "When": "Summer 2023",
+      "Mileage": "8,000 miles",
+      "Duration": "6 weeks"
+    },
+    "heading": "Practice makes perfect, NOT!",
+    "summary": "Sleeping in a car began as an experiment. Six weeks across the West proved the bed, the cooler, the camps, and our willingness to let the road rewrite the plan.",
+    "image": "bisti-badlands.jpg",
+    "alt": "Bisti Badlands on the Great Western Loop",
+    "dek": "The West is too big for a straight line."
+  },
+  {
+    "slug": "pch-ex",
+    "title": "Pacific Coast Highway Expedition",
+    "facts": {
+      "Vehicle": "Ivan minivan",
+      "When": "Winter 2024",
+      "Mileage": "12,000 miles",
+      "Duration": "11 weeks"
+    },
+    "heading": "Keep the ocean on the right!",
+    "summary": "We took Ivan to the Pacific, followed California Highway 1 south, and completed our first coast-to-coast drive from Los Angeles to Miami.",
+    "image": "highway-1-camp.jpg",
+    "alt": "Ivan camped along California Highway 1",
+    "dek": "An ultimate road trip — keep the ocean on the right!"
+  },
+  {
+    "slug": "socoex",
+    "title": "Southern Colorado Expedition",
+    "facts": {
+      "Vehicle": "PourHouse sprinter van",
+      "When": "Aug 2025",
+      "Mileage": "4,000 miles",
+      "Duration": "4 weeks"
+    },
+    "heading": "PourHouse makes its debut on the road.",
+    "summary": "A birthday invitation became PourHouse’s first long-distance expedition—and a full-scale test across southern Colorado’s scenic roads and high country.",
+    "image": "east-side-passage.jpg",
+    "alt": "PourHouse, the Sprinter, on a mountain road",
+    "dek": "PourHouse makes its debut on the road."
+  },
+  {
+    "slug": "california-expedition",
+    "title": "California Expedition",
+    "facts": {
+      "Vehicle": "PourHouse sprinter van",
+      "When": "Winter 2025",
+      "Mileage": "14,000 miles",
+      "Duration": "22 weeks"
+    },
+    "heading": "PourHouse becomes a full-time travel rig.",
+    "summary": "We traveled west for Thanksgiving, lived along the California coast, wandered east through the desert, and proved PourHouse as our full-time platform.",
+    "image": "death-valley-van.jpg",
+    "alt": "PourHouse camped beneath desert mountains",
+    "dek": "PourHouse graduates to a full-time travel rig."
+  }
+]
