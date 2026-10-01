@@ -1,0 +1,167 @@
+[
+  {
+    "original": "field-notes/california-expedition/182-f13c373f.jpg",
+    "retained": "gallery/40-89a13397.jpg",
+    "sha256": "c56be6943cb8f32ba453eb78d48cb27f51b0065bb2b02a7b2ac52345ca2a5835"
+  },
+  {
+    "original": "field-notes/california-expedition/257-9dc2b1c5.jpg",
+    "retained": "gallery/28-6d8dce40.jpg",
+    "sha256": "c9e89fa3f20e9e922034288674bb03c9bd875c1ac04e0a5a171b2b4df8b4a6ed"
+  },
+  {
+    "original": "field-notes/california-expedition/70-f30de2b6.jpg",
+    "retained": "gallery/30-3ba93d4b.jpg",
+    "sha256": "3aa943395e45b9d285e66088497b693968f5827071113f00bc6ac55ee2c2770c"
+  },
+  {
+    "original": "field-notes/california-expedition/78-7f8110df.jpg",
+    "retained": "gallery/38-51327b9b.jpg",
+    "sha256": "044af4cd85538d11b6ff6784479d529ca24cd327e43a7ca1d71e3909f7687a09"
+  },
+  {
+    "original": "field-notes/california-expedition/84-2f0699e1.jpg",
+    "retained": "gallery/24-2f788233.jpg",
+    "sha256": "ca9116e477091c33d552645d5963b5ec9179236236c47bedc550e21865614708"
+  },
+  {
+    "original": "field-notes/california-expedition/87-38fd626b.jpg",
+    "retained": "gallery/15-b9bcdedd.jpg",
+    "sha256": "85c5362a16dd5e70c5e12455ccb619225e8efc68eb617f6b6e9ccbd000f5272f"
+  },
+  {
+    "original": "field-notes/california-expedition/89-054f4224.jpg",
+    "retained": "gallery/14-b0f6e3ef.jpg",
+    "sha256": "80e66407b9dae00315f37f39e951beb5ac24840dfb2363b7b8345bd14b526f88"
+  },
+  {
+    "original": "field-notes/california-expedition/95-5130d766.jpg",
+    "retained": "gallery/03-b6e1de3c.jpg",
+    "sha256": "766b26f028d3a9dc555a7011a70c6fbb484d9a38c40e43fa830fff03da1efac9"
+  },
+  {
+    "original": "field-notes/california-expedition/99-d00b5392.jpg",
+    "retained": "gallery/12-aea26fcb.jpg",
+    "sha256": "5cbdf2d12d8a749eac41db82f5f6ebaf1570bd20eb894146c97e411225fb69f6"
+  },
+  {
+    "original": "field-notes/great-western-loop/119-b3002418.jpg",
+    "retained": "gallery/22-22110ad5.jpg",
+    "sha256": "e7b7912637805c61f3e3ca5b6e35aaf99869c9970b87b1ff5a95445e207b27f5"
+  },
+  {
+    "original": "field-notes/great-western-loop/138-2798d69d.jpg",
+    "retained": "gallery/33-e407f75b.jpg",
+    "sha256": "e919870bbe618a6bc021dd58fbc5cb4437a3531f0d4885fb53eceea2e2fb5b40"
+  },
+  {
+    "original": "field-notes/great-western-loop/139-2eeaf6ff.jpg",
+    "retained": "gallery/16-8175768e.jpg",
+    "sha256": "fa14d9436faa3684ff06b1b87ab2003d864fbda53ead138e073740c771916edb"
+  },
+  {
+    "original": "field-notes/great-western-loop/140-cb7b9eb1.jpg",
+    "retained": "gallery/04-537a2265.jpg",
+    "sha256": "5bbf571ebd574786b1c6f2883dbfb5f04eb8e5f76f74b941ef3b0dbb5e37e6e7"
+  },
+  {
+    "original": "field-notes/great-western-loop/144-f19554ce.jpg",
+    "retained": "gallery/11-eae748e4.jpg",
+    "sha256": "85b6b5cb0779bbaf49a830949e7917457e3a3ec0263648efe12b8459e2f52ba9"
+  },
+  {
+    "original": "field-notes/great-western-loop/21-bb30ce4c.jpg",
+    "retained": "gallery/19-caeb833b.jpg",
+    "sha256": "de5e652fd0d09282dfda16c45c0b1d03909298005c2bf843d6efe9bd5463eabd"
+  },
+  {
+    "original": "field-notes/great-western-loop/26-4ace7559.jpg",
+    "retained": "gallery/39-b48ac546.jpg",
+    "sha256": "37ebee58161a6b5185806a80de44c794dfda99164042288e7492d799e5eea42d"
+  },
+  {
+    "original": "field-notes/great-western-loop/27-d3d00fd0.jpg",
+    "retained": "gallery/29-f5cbab1a.jpg",
+    "sha256": "7279ceab39b9cec0e299c8ec1304d35145b5ad8fa3d6b94029c0376d203d79cb"
+  },
+  {
+    "original": "field-notes/great-western-loop/28-dbd53061.jpg",
+    "retained": "gallery/07-616e698c.jpg",
+    "sha256": "e14413e65d187739747f4ea9e5e37e46bd364830409deb9ddea4b4b145326c27"
+  },
+  {
+    "original": "field-notes/great-western-loop/34-ea1e21b5.jpg",
+    "retained": "gallery/32-24e95c9a.jpg",
+    "sha256": "e6fefe4e98d2200355c9d5735e7f190c247e2216c9cf84d504ab450a3d56214f"
+  },
+  {
+    "original": "field-notes/great-western-loop/43-b058696e.jpg",
+    "retained": "gallery/41-18df2d58.jpg",
+    "sha256": "a991e72d3c10e322bfb3aa2ef3cab0d2cf61ba7d3171a7284ae5ea5ade37f224"
+  },
+  {
+    "original": "field-notes/great-western-loop/48-4f679971.jpg",
+    "retained": "gallery/25-6884fe48.jpg",
+    "sha256": "6b5eae9e4d2ce851a08a9c8bad69686b6182cbc5dd90c5c3dfaaebdec6e0f985"
+  },
+  {
+    "original": "field-notes/great-western-loop/52-a8cc9837.jpg",
+    "retained": "gallery/10-ffb69a5c.jpg",
+    "sha256": "504a8cbd4bd8ba43346f47802b2e4ca15c4b966a7a47c1bd009767845ce74ff0"
+  },
+  {
+    "original": "field-notes/great-western-loop/59-81b3631b.jpg",
+    "retained": "gallery/44-a7e096ac.jpg",
+    "sha256": "2614573630d8357114be6a5415807e92c41b5da825d13a84f3cdb72bc25009f9"
+  },
+  {
+    "original": "field-notes/great-western-loop/60-e1765bae.jpg",
+    "retained": "gallery/26-bc7721f7.jpg",
+    "sha256": "5d16d7c19177fb97bf092ffe518e9cd9d28b64b56e9320fc53a6fd6bf38a6ef6"
+  },
+  {
+    "original": "field-notes/northwest-hot-lap/02-1f76383f.jpg",
+    "retained": "gallery/47-577b8119.jpg",
+    "sha256": "a6d1eeea45748a42388406396dd2c440445fa81e06c7dbbd7b40d3e8e3740a14"
+  },
+  {
+    "original": "field-notes/pch-ex/166-01b9d097.jpg",
+    "retained": "gallery/02-7d03f61b.jpg",
+    "sha256": "55011a642c1ca9b616b700b685cd00f4d4de28856685a17df65c2a83b7074e62"
+  },
+  {
+    "original": "field-notes/pch-ex/32-1b51932c.jpg",
+    "retained": "gallery/13-b83f2a99.jpg",
+    "sha256": "7f547aa3e7597861923ccce63204650ba7721a39c546843cf0bce4fb865de851"
+  },
+  {
+    "original": "field-notes/pch-ex/38-86f0ea85.jpg",
+    "retained": "gallery/01-bbb27521.jpg",
+    "sha256": "26938b73c74dde6db217d129ba5cdb7c43dca99d205a8ee5385ede631baac094"
+  },
+  {
+    "original": "field-notes/prius-utah-2019/22-f858c850.jpg",
+    "retained": "gallery/05-9736d799.jpg",
+    "sha256": "4c0129134d8f202cc740b47eae7c6a6caa92b6d7aafba05b020a3d4c0c6c7e23"
+  },
+  {
+    "original": "field-notes/prius-utah-2019/23-ef5ac108.jpg",
+    "retained": "gallery/43-6072078e.jpg",
+    "sha256": "b13e8980c9bac640555fe663afe9fe8d36a8d3175b5939bb750d02536a9fe3e6"
+  },
+  {
+    "original": "field-notes/prius-utah-2019/25-682fa7a3.jpg",
+    "retained": "gallery/42-b39295b4.jpg",
+    "sha256": "99470c05ff283d00ce05f5f420fab74675e27b186c7a652666cbc74a25a47477"
+  },
+  {
+    "original": "field-notes/prius-utah-2019/26-5882c068.jpg",
+    "retained": "gallery/17-4e8738e4.jpg",
+    "sha256": "1f04068f65eb49dfbb0793b79ab36f1159ed0ae6088a36d24f86dd5fe734c8e9"
+  },
+  {
+    "original": "field-notes/socoex/67-6dcddd7b.jpg",
+    "retained": "gallery/37-64a78eb5.jpg",
+    "sha256": "8596f914cd3a5a718f8741a438e28a03f8151f22e6e7a9d9d70aa0a9e6aa755c"
+  }
+]

@@ -4,11 +4,6 @@
     "height": 950,
     "source": "assets/photos/bisti-badlands.jpg"
   },
-  "big-loop-route.webp": {
-    "width": 1536,
-    "height": 1024,
-    "source": "assets/photos/big-loop-route.jpg"
-  },
   "highway-1-camp.webp": {
     "width": 1400,
     "height": 1050,
@@ -29,30 +24,10 @@
     "height": 1050,
     "source": "assets/photos/death-valley-van.jpg"
   },
-  "las-cienegas.webp": {
-    "width": 1400,
-    "height": 1050,
-    "source": "assets/photos/las-cienegas.jpg"
-  },
   "east-side-passage.webp": {
     "width": 1600,
     "height": 1200,
     "source": "assets/photos/east-side-passage.jpg"
-  },
-  "windy-western-road.webp": {
-    "width": 1600,
-    "height": 1200,
-    "source": "assets/photos/windy-western-road.jpg"
-  },
-  "taylor-park.webp": {
-    "width": 1600,
-    "height": 1200,
-    "source": "assets/photos/taylor-park.jpg"
-  },
-  "highway-1-jenner.webp": {
-    "width": 1050,
-    "height": 1400,
-    "source": "assets/photos/highway-1-jenner.jpg"
   },
   "minivan-bed.webp": {
     "width": 1200,
@@ -64,11 +39,6 @@
     "height": 1050,
     "source": "assets/photos/redington-pass.jpg"
   },
-  "roys-route-66.webp": {
-    "width": 1200,
-    "height": 1600,
-    "source": "assets/photos/roys-route-66.jpg"
-  },
   "death-valley-wide.webp": {
     "width": 1400,
     "height": 1050,
@@ -79,70 +49,15 @@
     "height": 1400,
     "source": "assets/photos/echo-canyon.jpg"
   },
-  "mustang-island.webp": {
-    "width": 1400,
-    "height": 1050,
-    "source": "assets/photos/mustang-island.jpg"
-  },
-  "utah-2019/wilderness-toilet.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/wilderness-toilet.jpg"
-  },
-  "utah-2019/prius-children.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/prius-children.jpg"
-  },
-  "utah-2019/boathenge-kansas.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/boathenge-kansas.jpg"
-  },
   "utah-2019/bryce-overlook.webp": {
     "width": 1200,
     "height": 900,
     "source": "assets/photos/utah-2019/bryce-overlook.jpg"
   },
-  "utah-2019/capitol-reef-lunch.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/capitol-reef-lunch.jpg"
-  },
-  "utah-2019/cassie-switchbacks-rest.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/cassie-switchbacks-rest.jpg"
-  },
-  "utah-2019/gem-lake-trail.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/gem-lake-trail.jpg"
-  },
-  "utah-2019/scout-lookout.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/scout-lookout.jpg"
-  },
   "utah-2019/delicate-arch.webp": {
     "width": 1234,
     "height": 1600,
     "source": "assets/photos/utah-2019/delicate-arch.jpg"
-  },
-  "utah-2019/zion-switchbacks.webp": {
-    "width": 900,
-    "height": 1200,
-    "source": "assets/photos/utah-2019/zion-switchbacks.jpg"
-  },
-  "utah-2019/estes-spencer.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/estes-spencer.jpg"
-  },
-  "utah-2019/utah-overlander.webp": {
-    "width": 1200,
-    "height": 900,
-    "source": "assets/photos/utah-2019/utah-overlander.jpg"
   },
   "northwest-hotlap/crater-lake-dusk.webp": {
     "width": 1200,
@@ -298,13 +213,6 @@
     "dateCreated": "2025-01-05T17:29:39Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/21-67c3e8af.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "67C3E8AF-A0C5-48EE-BB97-C46144391F7F",
-    "dateCreated": "2025-01-05T17:28:59Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/22-075d6bb0.jpg": {
     "width": 2048,
     "height": 1536,
@@ -375,13 +283,6 @@
     "dateCreated": "2024-12-31T21:07:42Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/32-1b51932c.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "1B51932C-4044-4B9F-A0FA-2FB07FF8039D",
-    "dateCreated": "2024-12-31T21:07:05Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/33-6da932ba.jpg": {
     "width": 2049,
     "height": 1537,
@@ -403,25 +304,11 @@
     "dateCreated": "2024-12-30T18:33:41Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/36-d805ac9c.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "D805AC9C-51E1-465B-A125-E02427EE7C09",
-    "dateCreated": "2024-12-28T21:22:21Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/37-9d36181a.jpg": {
     "width": 1537,
     "height": 2049,
     "photoGuid": "9D36181A-46E2-4E8E-A9D1-B893482D58E7",
     "dateCreated": "2024-12-27T23:10:22Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/38-86f0ea85.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "86F0EA85-B870-444E-A917-CFE3C1E9369B",
-    "dateCreated": "2024-12-26T00:39:45Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/39-aeb740ef.jpg": {
@@ -508,20 +395,6 @@
     "dateCreated": "2024-12-15T21:16:16Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/51-7de3d1d3.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "7DE3D1D3-F8DC-4857-977A-ABD98A19C46A",
-    "dateCreated": "2024-12-14T17:30:23Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/52-c0ee48a8.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "C0EE48A8-D3BD-4594-9E2D-C8E0F7416615",
-    "dateCreated": "2024-12-13T20:04:37Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/53-1db4693d.jpg": {
     "width": 1537,
     "height": 2049,
@@ -534,27 +407,6 @@
     "height": 1537,
     "photoGuid": "F21BF8DA-8AD0-4A3A-909B-98062DAB0703",
     "dateCreated": "2024-12-13T20:01:20Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/55-db7643f5.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "DB7643F5-3592-45D5-832D-952AA72CD4E4",
-    "dateCreated": "2024-12-13T17:39:05Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/56-c3160646.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "C3160646-2C08-470B-80AE-2C1E41C57775",
-    "dateCreated": "2024-12-13T16:41:35Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/57-49a3d747.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "49A3D747-CACE-485E-B70A-B8D7600046FA",
-    "dateCreated": "2024-12-11T21:27:40Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/58-0a02c361.jpg": {
@@ -578,13 +430,6 @@
     "dateCreated": "2024-12-11T17:50:11Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/61-add8ad59.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "ADD8AD59-6FAC-40F2-AF4D-81D6B4724BF4",
-    "dateCreated": "2024-12-10T22:52:34Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/62-a4b3f5de.jpg": {
     "width": 1537,
     "height": 2049,
@@ -597,13 +442,6 @@
     "height": 1537,
     "photoGuid": "74344FE0-062C-42E4-B08C-DBA900142028",
     "dateCreated": "2024-12-10T20:38:38Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/64-fcdddc93.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "FCDDDC93-FA85-4EA5-BF64-C81AAF5A8AB7",
-    "dateCreated": "2024-12-10T00:22:29Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/65-90aff9fe.jpg": {
@@ -655,27 +493,6 @@
     "dateCreated": "2024-12-02T22:16:17Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/72-3d98d11a.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "3D98D11A-CE16-45F1-8D8C-D4D2DAFF2906",
-    "dateCreated": "2024-11-30T22:06:18Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/73-3ed44d97.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "3ED44D97-9144-46AD-9ACA-7DFFC59A1E72",
-    "dateCreated": "2024-11-29T20:08:14Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/74-c50412ba.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "C50412BA-BC76-47FB-B2DB-E243B6C839EF",
-    "dateCreated": "2024-11-25T19:26:38Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/75-61f70c77.jpg": {
     "width": 1536,
     "height": 2048,
@@ -688,13 +505,6 @@
     "height": 2048,
     "photoGuid": "04AD78EA-C4B9-4D51-A1ED-9E405D462F57",
     "dateCreated": "2024-11-24T18:31:57Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/77-8e6d076f.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "8E6D076F-D4B4-4E3B-A3C1-A537AA9ED43B",
-    "dateCreated": "2024-11-23T20:53:48Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/78-d18ea5fe.jpg": {
@@ -732,32 +542,11 @@
     "dateCreated": "2024-11-22T19:48:19Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/83-0dd98d51.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "0DD98D51-6415-4EFE-AC71-A667DC25483F",
-    "dateCreated": "2024-11-22T19:17:01Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/84-8a9f6f3e.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "8A9F6F3E-484C-45EC-8408-E4F6AF171A1E",
-    "dateCreated": "2024-11-22T18:31:23Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/85-03846222.jpg": {
     "width": 2049,
     "height": 1537,
     "photoGuid": "03846222-9EBD-4814-A6E7-E1EE8A7DF745",
     "dateCreated": "2024-11-22T17:38:46Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/86-b7f19655.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "B7F19655-29D7-4B4D-8630-6F3125707FC0",
-    "dateCreated": "2024-11-22T16:59:27Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/87-7294f1c4.jpg": {
@@ -828,13 +617,6 @@
     "height": 1537,
     "photoGuid": "8947704F-95E9-493D-A06B-5A2C7200511E",
     "dateCreated": "2024-11-21T01:06:49Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/97-2aae6799.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "2AAE6799-E8B6-4EBE-BBE5-7F99FCA3DF0F",
-    "dateCreated": "2024-11-20T22:50:09Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/98-d7bcab66.jpg": {
@@ -1201,13 +983,6 @@
     "dateCreated": "2024-11-15T17:18:10Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/150-272a20cc.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "272A20CC-2337-4C6A-83BA-DCFB6215138E",
-    "dateCreated": "2025-01-21T18:37:32Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/151-01ee9813.jpg": {
     "width": 1290,
     "height": 2796,
@@ -1215,39 +990,11 @@
     "dateCreated": "2025-01-18T20:22:39Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/152-aaa1ffe8.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "AAA1FFE8-1FC3-43E7-8F84-DF47DB504824",
-    "dateCreated": "2025-01-16T15:41:13Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/153-aa214395.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "AA214395-D93A-4C18-BB02-470D4A60BE65",
-    "dateCreated": "2025-01-15T21:56:50Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/154-1e90fbd7.jpg": {
-    "width": 1536,
-    "height": 2187,
-    "photoGuid": "1E90FBD7-4210-4913-8C7B-91FE43218509",
-    "dateCreated": "2025-01-13T16:16:16Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/155-14123b31.jpg": {
     "width": 2049,
     "height": 1537,
     "photoGuid": "14123B31-5C82-4FFB-B155-F4D44BF3AD45",
     "dateCreated": "2025-01-08T18:51:55Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/156-f2a015ad.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "F2A015AD-6C66-419B-9D20-D910994C177B",
-    "dateCreated": "2025-01-07T21:53:28Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/157-2e54f631.jpg": {
@@ -1269,13 +1016,6 @@
     "height": 1537,
     "photoGuid": "317A9E5D-4AE5-495A-8D13-BF22B4F95637",
     "dateCreated": "2025-01-06T22:54:37Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/160-8a608d82.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "8A608D82-3716-40D5-B251-BAD0648907DD",
-    "dateCreated": "2025-01-05T21:50:13Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/161-d0f5dda2.jpg": {
@@ -1311,13 +1051,6 @@
     "height": 1537,
     "photoGuid": "D1E945A7-D022-4FB3-BBFE-B1D4135A8622",
     "dateCreated": "2025-01-03T23:08:00Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/166-01b9d097.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "01B9D097-B0AD-4161-879C-789C19795B86",
-    "dateCreated": "2025-01-03T21:07:42Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/167-41770697.jpg": {
@@ -1488,13 +1221,6 @@
     "dateCreated": "2024-12-03T18:38:40Z",
     "expedition": "pch-ex"
   },
-  "field-notes/pch-ex/191-e4adeb70.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "E4ADEB70-E0A5-4C39-8303-B840F50DF49A",
-    "dateCreated": "2024-12-02T22:16:17Z",
-    "expedition": "pch-ex"
-  },
   "field-notes/pch-ex/192-9c42af69.jpg": {
     "width": 2049,
     "height": 1537,
@@ -1626,13 +1352,6 @@
     "height": 2049,
     "photoGuid": "70EB7FFC-5916-4361-B47D-1520037AB1D3",
     "dateCreated": "2024-11-16T19:38:54Z",
-    "expedition": "pch-ex"
-  },
-  "field-notes/pch-ex/211-a45c7218.jpg": {
-    "width": 720,
-    "height": 1280,
-    "photoGuid": "A45C7218-1279-43A5-A1B1-A0F580DCF300",
-    "dateCreated": "2024-11-15T17:17:59Z",
     "expedition": "pch-ex"
   },
   "field-notes/pch-ex/212-adf938d4.jpg": {
@@ -1817,13 +1536,6 @@
     "dateCreated": "2023-07-23T02:54:59Z",
     "expedition": "great-western-loop"
   },
-  "field-notes/great-western-loop/21-bb30ce4c.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "BB30CE4C-8B8E-4C55-9318-14C10DDA8768",
-    "dateCreated": "2023-07-22T21:56:26Z",
-    "expedition": "great-western-loop"
-  },
   "field-notes/great-western-loop/22-68cfe620.jpg": {
     "width": 1536,
     "height": 2048,
@@ -1850,27 +1562,6 @@
     "height": 1537,
     "photoGuid": "EC81AD32-F2C5-4FDB-A00D-082FDAB48F86",
     "dateCreated": "2023-07-22T13:10:37Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/26-4ace7559.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "4ACE7559-37CC-4A74-BA07-1E5597CB3BC8",
-    "dateCreated": "2023-07-22T12:14:55Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/27-d3d00fd0.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "D3D00FD0-A916-4A9C-98DB-AB9F64E7E004",
-    "dateCreated": "2023-07-22T12:09:05Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/28-dbd53061.jpg": {
-    "width": 2048,
-    "height": 1538,
-    "photoGuid": "DBD53061-E439-4842-8FE2-1C4B39D92727",
-    "dateCreated": "2023-07-22T12:00:34Z",
     "expedition": "great-western-loop"
   },
   "field-notes/great-western-loop/29-83553592.jpg": {
@@ -1906,13 +1597,6 @@
     "height": 1220,
     "photoGuid": "1EDECA3D-60F8-4322-87A9-14E75BC0C85D",
     "dateCreated": "2023-07-20T13:09:16Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/34-ea1e21b5.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "EA1E21B5-7D58-4CDB-9991-55C359C7E2C7",
-    "dateCreated": "2023-07-20T12:58:05Z",
     "expedition": "great-western-loop"
   },
   "field-notes/great-western-loop/35-26bc8465.jpg": {
@@ -1971,13 +1655,6 @@
     "dateCreated": "2023-07-17T16:02:56Z",
     "expedition": "great-western-loop"
   },
-  "field-notes/great-western-loop/43-b058696e.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "B058696E-AD1A-480D-AB3A-B43CC5742BBA",
-    "dateCreated": "2023-07-17T15:45:21Z",
-    "expedition": "great-western-loop"
-  },
   "field-notes/great-western-loop/44-2b058b50.jpg": {
     "width": 2049,
     "height": 1537,
@@ -2006,13 +1683,6 @@
     "dateCreated": "2023-07-14T15:22:50Z",
     "expedition": "great-western-loop"
   },
-  "field-notes/great-western-loop/48-4f679971.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "4F679971-4E52-4A5B-B5A6-B08709EC406D",
-    "dateCreated": "2023-07-12T19:40:38Z",
-    "expedition": "great-western-loop"
-  },
   "field-notes/great-western-loop/49-f30b0a1a.jpg": {
     "width": 2049,
     "height": 1537,
@@ -2032,13 +1702,6 @@
     "height": 1537,
     "photoGuid": "967D5220-8573-4B98-83FE-24D285461816",
     "dateCreated": "2023-07-10T17:38:37Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/52-a8cc9837.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "A8CC9837-FC22-42B3-9D39-B328D598C857",
-    "dateCreated": "2023-07-09T22:27:01Z",
     "expedition": "great-western-loop"
   },
   "field-notes/great-western-loop/53-2ff52b4e.jpg": {
@@ -2081,20 +1744,6 @@
     "height": 1537,
     "photoGuid": "5996CD37-BABE-47AD-99F6-400C5BA8B565",
     "dateCreated": "2023-07-08T14:58:04Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/59-81b3631b.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "81B3631B-5CD9-4CE1-ACD7-B0BF65EFD033",
-    "dateCreated": "2023-07-07T19:57:07Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/60-e1765bae.jpg": {
-    "width": 2301,
-    "height": 1366,
-    "photoGuid": "E1765BAE-50E9-4929-BD21-6BE92E294272",
-    "dateCreated": "2023-07-07T16:00:39Z",
     "expedition": "great-western-loop"
   },
   "field-notes/great-western-loop/61-f42d22e4.jpg": {
@@ -2475,13 +2124,6 @@
     "dateCreated": "2023-08-15T14:22:10Z",
     "expedition": "great-western-loop"
   },
-  "field-notes/great-western-loop/115-05ac4e63.jpg": {
-    "width": 1169,
-    "height": 829,
-    "photoGuid": "05AC4E63-786B-4CB4-9EE7-CE7065918A5C",
-    "dateCreated": "2023-08-09T18:54:20Z",
-    "expedition": "great-western-loop"
-  },
   "field-notes/great-western-loop/116-cf43fb27.jpg": {
     "width": 2049,
     "height": 1537,
@@ -2501,13 +2143,6 @@
     "height": 1537,
     "photoGuid": "6D1FF84A-162D-462D-B175-95ED1831E154",
     "dateCreated": "2023-08-04T19:17:26Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/119-b3002418.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "B3002418-BBC5-46FC-BAC2-1921FADD7C7F",
-    "dateCreated": "2023-08-04T19:19:50Z",
     "expedition": "great-western-loop"
   },
   "field-notes/great-western-loop/120-ed183833.jpg": {
@@ -2636,27 +2271,6 @@
     "dateCreated": "2023-07-13T16:06:43Z",
     "expedition": "great-western-loop"
   },
-  "field-notes/great-western-loop/138-2798d69d.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "2798D69D-0EF1-4905-87C3-61FF5C0B5FBD",
-    "dateCreated": "2023-07-13T16:08:03Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/139-2eeaf6ff.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "2EEAF6FF-4D20-415A-9DD3-3238C6B48A99",
-    "dateCreated": "2023-07-13T16:11:38Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/140-cb7b9eb1.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "CB7B9EB1-4EB7-497C-A11B-B053072F9F0D",
-    "dateCreated": "2023-07-13T16:07:19Z",
-    "expedition": "great-western-loop"
-  },
   "field-notes/great-western-loop/141-b501e6f7.jpg": {
     "width": 1173,
     "height": 880,
@@ -2676,13 +2290,6 @@
     "height": 1536,
     "photoGuid": "CE11952B-41D9-45A5-8CA1-47E48BAFBE72",
     "dateCreated": "2023-07-10T19:30:00Z",
-    "expedition": "great-western-loop"
-  },
-  "field-notes/great-western-loop/144-f19554ce.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "F19554CE-0D10-4490-98FB-8FDFD530FDDB",
-    "dateCreated": "2023-07-10T19:05:22Z",
     "expedition": "great-western-loop"
   },
   "field-notes/great-western-loop/145-8612e887.jpg": {
@@ -2846,39 +2453,11 @@
     "dateCreated": "2019-11-15T22:02:55Z",
     "expedition": "prius-utah-2019"
   },
-  "field-notes/prius-utah-2019/22-f858c850.jpg": {
-    "width": 2048,
-    "height": 1537,
-    "photoGuid": "F858C850-B7AD-4FB5-B2A3-3C7B2BB83D12",
-    "dateCreated": "2019-11-14T18:53:42Z",
-    "expedition": "prius-utah-2019"
-  },
-  "field-notes/prius-utah-2019/23-ef5ac108.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "EF5AC108-27A6-4E62-810F-A3BF2B623CF5",
-    "dateCreated": "2019-11-14T17:56:37Z",
-    "expedition": "prius-utah-2019"
-  },
   "field-notes/prius-utah-2019/24-4d68f8db.jpg": {
     "width": 2048,
     "height": 1536,
     "photoGuid": "4D68F8DB-EFAB-4C57-A230-B8E47642475A",
     "dateCreated": "2019-11-15T22:14:40Z",
-    "expedition": "prius-utah-2019"
-  },
-  "field-notes/prius-utah-2019/25-682fa7a3.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "682FA7A3-3B2C-4816-8B5A-866059BE0E01",
-    "dateCreated": "2019-11-14T16:58:45Z",
-    "expedition": "prius-utah-2019"
-  },
-  "field-notes/prius-utah-2019/26-5882c068.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "5882C068-A8EA-4CE2-AF6C-F91FC2C30D0B",
-    "dateCreated": "2019-11-14T16:14:35Z",
     "expedition": "prius-utah-2019"
   },
   "field-notes/prius-utah-2019/27-b18c5792.jpg": {
@@ -3012,13 +2591,6 @@
     "height": 2048,
     "photoGuid": "6D1FF5FF-A7D5-4F8C-AF06-5DC317C29A59",
     "dateCreated": "2021-09-20T18:59:03Z",
-    "expedition": "northwest-hot-lap"
-  },
-  "field-notes/northwest-hot-lap/02-1f76383f.jpg": {
-    "width": 2049,
-    "height": 1536,
-    "photoGuid": "1F76383F-0DD8-4A6A-BED0-9BFDD5E08007",
-    "dateCreated": "2021-09-20T17:59:20Z",
     "expedition": "northwest-hot-lap"
   },
   "field-notes/northwest-hot-lap/03-2d1533aa.jpg": {
@@ -3931,13 +3503,6 @@
     "dateCreated": "2025-08-11T16:49:31Z",
     "expedition": "socoex"
   },
-  "field-notes/socoex/67-6dcddd7b.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "6DCDDD7B-654A-4C53-A3F9-073E4F648AC4",
-    "dateCreated": "2025-08-11T16:42:48Z",
-    "expedition": "socoex"
-  },
   "field-notes/socoex/68-625a96d9.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4036,13 +3601,6 @@
     "dateCreated": "2025-08-24T00:09:48Z",
     "expedition": "socoex"
   },
-  "field-notes/socoex/82-04792999.jpg": {
-    "width": 720,
-    "height": 1280,
-    "photoGuid": "04792999-4780-4C6A-AAAC-C40F75BB8AC9",
-    "dateCreated": "2025-08-09T18:52:13Z",
-    "expedition": "socoex"
-  },
   "field-notes/socoex/83-c920adbd.jpg": {
     "width": 1537,
     "height": 2049,
@@ -4071,13 +3629,6 @@
     "dateCreated": "2026-02-18T23:25:53Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/04-36396243.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "36396243-F576-4078-89D0-36612201DE57",
-    "dateCreated": "2026-02-18T01:56:33Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/05-28f82c99.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4104,13 +3655,6 @@
     "height": 1537,
     "photoGuid": "3A0DA8C0-DC66-4358-86E6-3B9F505493A9",
     "dateCreated": "2026-02-13T15:58:56Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/09-097b5ef5.jpg": {
-    "width": 720,
-    "height": 1280,
-    "photoGuid": "097B5EF5-0E94-4926-8C18-C92B083DD17A",
-    "dateCreated": "2026-02-13T15:04:37Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/10-78e0b750.jpg": {
@@ -4148,13 +3692,6 @@
     "dateCreated": "2026-02-05T16:47:13Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/15-e6c31d86.jpg": {
-    "width": 1289,
-    "height": 1316,
-    "photoGuid": "E6C31D86-86D1-48AC-A1A8-FDE63A9E1BF1",
-    "dateCreated": "2026-02-05T13:39:12Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/16-ac124891.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4167,13 +3704,6 @@
     "height": 1537,
     "photoGuid": "A04380C9-DE9F-4A1F-9C37-965F669D91E5",
     "dateCreated": "2026-02-04T23:04:22Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/18-fa1201bf.jpg": {
-    "width": 1536,
-    "height": 2049,
-    "photoGuid": "FA1201BF-C49C-46F3-8A16-054B18319D23",
-    "dateCreated": "2026-02-03T20:49:27Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/19-9260c97c.jpg": {
@@ -4202,13 +3732,6 @@
     "height": 1537,
     "photoGuid": "E5611748-AFFE-4B77-85F7-2B2857A22E6B",
     "dateCreated": "2026-02-02T21:31:48Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/23-af35806d.jpg": {
-    "width": 1537,
-    "height": 2048,
-    "photoGuid": "AF35806D-8460-4A49-8365-FC70CD6812B5",
-    "dateCreated": "2026-02-02T19:12:22Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/24-b3febe1c.jpg": {
@@ -4295,25 +3818,11 @@
     "dateCreated": "2026-01-21T21:56:33Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/36-63cb1ba5.jpg": {
-    "width": 675,
-    "height": 1462,
-    "photoGuid": "63CB1BA5-7222-45BA-891E-7E54378AC9C7",
-    "dateCreated": "2026-01-21T17:32:57Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/37-7815f7f2.jpg": {
     "width": 2049,
     "height": 1537,
     "photoGuid": "7815F7F2-FFD5-4448-BEE1-8CEFFDACECFD",
     "dateCreated": "2026-01-20T19:46:50Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/38-c9a53f92.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "C9A53F92-9123-4013-A038-9CB415BA9C66",
-    "dateCreated": "2026-01-20T19:16:08Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/39-87eebd55.jpg": {
@@ -4407,13 +3916,6 @@
     "dateCreated": "2026-01-15T20:50:49Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/52-46358685.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "46358685-9F77-4654-B43A-726ED119DF8B",
-    "dateCreated": "2026-01-15T19:19:20Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/53-1a849804.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4435,13 +3937,6 @@
     "dateCreated": "2026-01-14T23:19:34Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/56-5a9b6cbd.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "5A9B6CBD-6E63-4A20-B006-A78845BEDE43",
-    "dateCreated": "2026-01-13T22:57:57Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/57-c44d3998.jpg": {
     "width": 1537,
     "height": 2049,
@@ -4454,13 +3949,6 @@
     "height": 1537,
     "photoGuid": "BD7E45C2-96F6-476F-B339-34EA50537BB1",
     "dateCreated": "2026-01-11T23:06:39Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/59-f8aee43b.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "F8AEE43B-0737-4AF7-8EB7-FD1C097AB80F",
-    "dateCreated": "2026-01-11T23:06:27Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/60-fd162fd8.jpg": {
@@ -4519,27 +4007,6 @@
     "dateCreated": "2026-01-10T20:15:52Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/68-62a6cfa8.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "62A6CFA8-9490-4102-B1C6-D06CCD13F77C",
-    "dateCreated": "2026-01-10T22:13:54Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/69-4b611be5.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "4B611BE5-3401-435B-AE48-20C5AF2B638E",
-    "dateCreated": "2026-01-10T20:58:07Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/70-f30de2b6.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "F30DE2B6-4BB3-48F6-AEF4-62A89B17B420",
-    "dateCreated": "2026-01-10T20:31:38Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/71-1c89bc50.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4589,13 +4056,6 @@
     "dateCreated": "2026-01-08T18:50:05Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/78-7f8110df.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "7F8110DF-9083-43F8-9684-5BFDF905EC0E",
-    "dateCreated": "2026-01-08T18:53:36Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/79-6215d950.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4631,13 +4091,6 @@
     "dateCreated": "2026-01-08T18:08:58Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/84-2f0699e1.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "2F0699E1-8F3E-4B2F-B9AF-57B698648592",
-    "dateCreated": "2026-01-08T17:57:22Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/85-6982a60c.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4652,13 +4105,6 @@
     "dateCreated": "2026-01-08T17:05:03Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/87-38fd626b.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "38FD626B-71CD-441B-877B-3F480F0E8FB8",
-    "dateCreated": "2026-01-08T17:01:36Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/88-18050e1b.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4666,25 +4112,11 @@
     "dateCreated": "2026-01-08T16:52:14Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/89-054f4224.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "054F4224-448D-4D58-98B3-BA7E12BF5160",
-    "dateCreated": "2026-01-08T15:51:59Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/90-156c2626.jpg": {
     "width": 2049,
     "height": 1537,
     "photoGuid": "156C2626-DFA6-434A-9859-77A0F2D07E18",
     "dateCreated": "2026-01-08T01:00:37Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/91-bd72a09c.jpg": {
-    "width": 1280,
-    "height": 720,
-    "photoGuid": "BD72A09C-0C3F-4E0E-803F-ACAF5D70EBBD",
-    "dateCreated": "2026-01-08T00:56:15Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/92-2617b2aa.jpg": {
@@ -4708,13 +4140,6 @@
     "dateCreated": "2026-01-07T22:13:20Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/95-5130d766.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "5130D766-7BAC-4CB6-82ED-C8C18BA83FA6",
-    "dateCreated": "2026-01-07T22:12:42Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/96-46376bbf.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4734,13 +4159,6 @@
     "height": 1537,
     "photoGuid": "D180F4BD-8CA3-4F8F-ADC6-861866D50731",
     "dateCreated": "2026-01-07T19:50:50Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/99-d00b5392.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "D00B5392-0B4A-450F-B73C-8E73DD60A67C",
-    "dateCreated": "2026-01-07T19:03:33Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/100-9f5c42fb.jpg": {
@@ -4785,13 +4203,6 @@
     "dateCreated": "2026-01-06T20:55:14Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/106-c27b81b3.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "C27B81B3-021C-4845-90F5-5E2C6A168041",
-    "dateCreated": "2026-01-06T20:54:59Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/107-9346f6ec.jpg": {
     "width": 2049,
     "height": 1537,
@@ -4811,13 +4222,6 @@
     "height": 1537,
     "photoGuid": "CB7B3485-C208-411B-B0E9-8D4019BA4224",
     "dateCreated": "2026-01-05T19:00:59Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/110-60a494b4.jpg": {
-    "width": 720,
-    "height": 1280,
-    "photoGuid": "60A494B4-8B43-4CEA-8492-366640BCC97E",
-    "dateCreated": "2026-01-05T17:52:12Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/111-d91b764b.jpg": {
@@ -4860,13 +4264,6 @@
     "height": 2049,
     "photoGuid": "AA50DB6B-BAC9-4AF3-9270-C30CAE73011A",
     "dateCreated": "2025-12-29T21:07:25Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/117-91883885.jpg": {
-    "width": 1280,
-    "height": 720,
-    "photoGuid": "91883885-AD02-48E2-A7EF-501960283F89",
-    "dateCreated": "2025-12-28T23:36:56Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/118-2ea999b7.jpg": {
@@ -4932,13 +4329,6 @@
     "dateCreated": "2025-12-27T23:01:10Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/127-b396d0f4.jpg": {
-    "width": 720,
-    "height": 1280,
-    "photoGuid": "B396D0F4-6E58-440B-9CBA-0B919F20F4B8",
-    "dateCreated": "2025-12-27T22:46:44Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/128-feb7df81.jpg": {
     "width": 1057,
     "height": 1410,
@@ -5002,13 +4392,6 @@
     "dateCreated": "2025-12-21T20:42:43Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/137-62d0c8ed.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "62D0C8ED-6F3F-4FC5-BE42-EA172812188D",
-    "dateCreated": "2025-12-20T21:19:14Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/138-fd2b9d0d.jpg": {
     "width": 2049,
     "height": 1537,
@@ -5042,13 +4425,6 @@
     "height": 1537,
     "photoGuid": "9579206D-B4D1-4BDD-91A2-1A12EBB10B9E",
     "dateCreated": "2025-12-20T21:14:04Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/143-58426d32.jpg": {
-    "width": 1280,
-    "height": 960,
-    "photoGuid": "58426D32-E589-493C-8C67-B35CCE7901B3",
-    "dateCreated": "2025-12-20T21:05:43Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/144-4e50f02a.jpg": {
@@ -5156,13 +4532,6 @@
     "dateCreated": "2026-01-16T21:12:36Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/159-0fe17f38.jpg": {
-    "width": 1536,
-    "height": 2048,
-    "photoGuid": "0FE17F38-5AC5-427C-931C-4955584A2116",
-    "dateCreated": "2026-01-15T20:58:49Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/160-217c762c.jpg": {
     "width": 1536,
     "height": 2048,
@@ -5198,25 +4567,11 @@
     "dateCreated": "2025-12-08T18:33:56Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/165-5830830e.jpg": {
-    "width": 1536,
-    "height": 2048,
-    "photoGuid": "5830830E-4628-4188-88F3-27495EF18A7C",
-    "dateCreated": "2026-01-06T21:11:36Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/166-b701fbdd.jpg": {
     "width": 1104,
     "height": 1472,
     "photoGuid": "B701FBDD-DEA6-4609-93A1-63AE87A707A3",
     "dateCreated": "2025-12-07T21:39:05Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/167-5797adf9.jpg": {
-    "width": 1537,
-    "height": 2048,
-    "photoGuid": "5797ADF9-5E08-4B74-8093-B7AB96105A60",
-    "dateCreated": "2025-12-29T18:22:07Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/168-24f2b37a.jpg": {
@@ -5317,13 +4672,6 @@
     "dateCreated": "2025-12-04T21:43:06Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/182-f13c373f.jpg": {
-    "width": 1537,
-    "height": 2048,
-    "photoGuid": "F13C373F-F5A8-406B-A0B7-5D355C9EFD81",
-    "dateCreated": "2025-12-04T21:40:31Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/183-7d7eaf13.jpg": {
     "width": 1536,
     "height": 2048,
@@ -5366,13 +4714,6 @@
     "dateCreated": "2025-12-04T20:29:18Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/189-9eca628b.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "9ECA628B-FF90-4E00-B530-979D7A472A9F",
-    "dateCreated": "2025-12-07T21:27:24Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/190-5ab55452.jpg": {
     "width": 1537,
     "height": 2049,
@@ -5399,13 +4740,6 @@
     "height": 1537,
     "photoGuid": "EEF68D3F-74F6-42AA-B638-6C158D2EB1CB",
     "dateCreated": "2025-12-03T23:09:05Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/194-cac40910.jpg": {
-    "width": 1536,
-    "height": 2049,
-    "photoGuid": "CAC40910-5E5B-4DB6-8B4D-6813FDADCE13",
-    "dateCreated": "2025-12-06T23:55:23Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/195-c3441377.jpg": {
@@ -5441,13 +4775,6 @@
     "height": 1537,
     "photoGuid": "3CC233A2-7E15-4DEB-A958-46EA379D6556",
     "dateCreated": "2025-12-02T21:55:54Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/200-1481f7b9.jpg": {
-    "width": 1280,
-    "height": 720,
-    "photoGuid": "1481F7B9-6DBF-4DE6-9F59-3BC611BF59AD",
-    "dateCreated": "2025-12-02T21:54:26Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/201-bfcd9064.jpg": {
@@ -5534,13 +4861,6 @@
     "dateCreated": "2025-12-01T21:39:38Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/213-9209c582.jpg": {
-    "width": 720,
-    "height": 1280,
-    "photoGuid": "9209C582-CA0F-4370-9D97-07C442428E65",
-    "dateCreated": "2025-11-29T23:56:04Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/214-98f7a154.jpg": {
     "width": 1536,
     "height": 2048,
@@ -5562,13 +4882,6 @@
     "dateCreated": "2025-11-29T23:03:16Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/217-e1a24da1.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "E1A24DA1-5D6F-4A79-B4C5-86B0D3F9EF7E",
-    "dateCreated": "2025-11-29T23:15:36Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/218-e69fc629.jpg": {
     "width": 1536,
     "height": 2048,
@@ -5576,25 +4889,11 @@
     "dateCreated": "2025-11-27T00:08:06Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/219-4abcdf6e.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "4ABCDF6E-B89A-47C7-BEAE-39FCDFFB8687",
-    "dateCreated": "2025-11-29T22:38:20Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/220-a8244050.jpg": {
     "width": 1536,
     "height": 2048,
     "photoGuid": "A8244050-2BB5-4B69-83FD-2FD959075145",
     "dateCreated": "2025-11-22T20:37:12Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/221-bc9b0bbd.jpg": {
-    "width": 1536,
-    "height": 2049,
-    "photoGuid": "BC9B0BBD-9349-440F-AF96-4C8905575124",
-    "dateCreated": "2025-11-22T20:02:25Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/222-d13f70b0.jpg": {
@@ -5632,20 +4931,6 @@
     "dateCreated": "2025-11-29T17:00:46Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/227-6004e3c0.jpg": {
-    "width": 1475,
-    "height": 1967,
-    "photoGuid": "6004E3C0-2A1E-437F-9728-4E5DAE47C1B4",
-    "dateCreated": "2025-11-26T22:26:24Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/228-64594cb8.jpg": {
-    "width": 1537,
-    "height": 2049,
-    "photoGuid": "64594CB8-29FA-4CA8-94FC-D27044424D1B",
-    "dateCreated": "2025-11-26T21:19:45Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/229-e716d550.jpg": {
     "width": 2049,
     "height": 1537,
@@ -5658,13 +4943,6 @@
     "height": 3330,
     "photoGuid": "01854DCA-1915-41BA-B02B-9962F0CC79CB",
     "dateCreated": "2025-11-23T21:32:56Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/231-d85ecbcd.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "D85ECBCD-25D4-4DDF-A2C2-C4B6AA80336E",
-    "dateCreated": "2025-11-23T18:32:01Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/232-4c5bce47.jpg": {
@@ -5702,20 +4980,6 @@
     "dateCreated": "2025-11-22T20:50:02Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/237-4d6146b4.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "4D6146B4-E531-4E9F-8E77-0870719CC757",
-    "dateCreated": "2025-11-22T20:36:41Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/238-acf200e5.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "ACF200E5-FC3B-499C-8967-CC3D06671DD6",
-    "dateCreated": "2025-11-22T20:05:58Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/239-13da9760.jpg": {
     "width": 1063,
     "height": 1417,
@@ -5742,13 +5006,6 @@
     "height": 2049,
     "photoGuid": "07910366-F7AF-4775-87A3-275B5C721A9C",
     "dateCreated": "2025-11-20T21:26:18Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/243-c7725d34.jpg": {
-    "width": 1536,
-    "height": 2048,
-    "photoGuid": "C7725D34-6972-448A-9106-9CB452806FD3",
-    "dateCreated": "2025-11-20T19:50:44Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/244-795867fe.jpg": {
@@ -5814,13 +5071,6 @@
     "dateCreated": "2026-02-01T16:36:54Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/253-1ec565ad.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "1EC565AD-2B6E-40A3-971D-A888298675FA",
-    "dateCreated": "2025-12-04T01:07:18Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/254-1defeb77.jpg": {
     "width": 2049,
     "height": 1537,
@@ -5840,13 +5090,6 @@
     "height": 1537,
     "photoGuid": "0996810C-238F-447F-8123-1951ACE787DD",
     "dateCreated": "2026-02-12T19:14:03Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/257-9dc2b1c5.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "9DC2B1C5-5E41-47B9-930D-C6039DB35C22",
-    "dateCreated": "2025-12-02T01:37:11Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/258-c2014868.jpg": {
@@ -5905,13 +5148,6 @@
     "dateCreated": "2025-12-08T21:38:44Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/266-a19c631e.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "A19C631E-DF0E-4BBC-9302-1B837DDF7AAB",
-    "dateCreated": "2025-11-23T14:51:00Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/267-7ac72a8c.jpg": {
     "width": 1537,
     "height": 2049,
@@ -5966,20 +5202,6 @@
     "height": 1537,
     "photoGuid": "1B010A1C-AADA-45A4-8A85-445902DEC552",
     "dateCreated": "2025-11-30T20:25:56Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/275-7e5a2993.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "7E5A2993-ABAC-41EB-904C-89DC15E0A676",
-    "dateCreated": "2025-11-22T19:16:10Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/276-be0f87f4.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "BE0F87F4-CC51-4A6E-AF2A-4841A824DF69",
-    "dateCreated": "2026-02-02T21:36:25Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/277-aa7919cd.jpg": {
@@ -6073,32 +5295,11 @@
     "dateCreated": "2026-01-06T20:55:14Z",
     "expedition": "california-expedition"
   },
-  "field-notes/california-expedition/290-6ff9f7d0.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "6FF9F7D0-1F28-482F-854C-4644FC841BEB",
-    "dateCreated": "2025-12-21T20:42:43Z",
-    "expedition": "california-expedition"
-  },
   "field-notes/california-expedition/291-cfeb2ed0.jpg": {
     "width": 1537,
     "height": 2049,
     "photoGuid": "CFEB2ED0-9D22-4F93-BFA1-F28D321A3E94",
     "dateCreated": "2026-02-24T13:01:05Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/292-05150656.jpg": {
-    "width": 2049,
-    "height": 1537,
-    "photoGuid": "05150656-9985-40B0-B527-7696C979C9F0",
-    "dateCreated": "2025-12-27T22:24:38Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/293-04b773d3.jpg": {
-    "width": 2048,
-    "height": 1537,
-    "photoGuid": "04B773D3-F169-4007-B403-6EC4916ADF36",
-    "dateCreated": "2025-11-20T21:36:25Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/294-63d0ddc0.jpg": {
@@ -6113,13 +5314,6 @@
     "height": 1537,
     "photoGuid": "5ADB816C-C64B-477B-9238-CCBE84D338EE",
     "dateCreated": "2026-03-01T19:28:49Z",
-    "expedition": "california-expedition"
-  },
-  "field-notes/california-expedition/296-e19142eb.jpg": {
-    "width": 2048,
-    "height": 1536,
-    "photoGuid": "E19142EB-60CD-43CD-B283-FFE37F6AA60C",
-    "dateCreated": "2025-11-26T23:27:48Z",
     "expedition": "california-expedition"
   },
   "field-notes/california-expedition/297-26013b99.jpg": {

@@ -3,7 +3,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import re,json
+import re,json,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 class Parser(HTMLParser):
  def __init__(self,text):
@@ -45,13 +45,17 @@ for t in json.loads((ROOT/'content/expeditions.json').read_text()):
   }.items(): old=old.replace(before,after)
  source=(ROOT/'content/stories'/f'{t["slug"]}.html').read_text()
  assert old==source, f'Story changed: {t["slug"]}'
-# Expedition pools must stay local and cannot accidentally cross trip boundaries.
+# Expedition pools stay local; explicitly verified Gallery masters may be shared.
+shared_photos=json.loads((ROOT/'content/shared-photo-assets.json').read_text())
+for shared in shared_photos:
+ assert shared['retained'].startswith('gallery/')
+ assert hashlib.sha256((ROOT/'assets/photos'/shared['retained']).read_bytes()).hexdigest()==shared['sha256'], f'Shared photo changed: {shared}'
 for slug, photos in json.loads((ROOT/'content/field-note-photos.json').read_text()).items():
  assert len(photos)>1, f'Not enough photographs: {slug}'
  expected_frames=4 if slug=='pch-ex' else 3
  assert (ROOT/'field-notes'/f'{slug}.html').read_text().count('data-photo-frame')==expected_frames
  for photo in photos:
-  assert photo['src'].startswith(f'field-notes/{slug}/'), f'Cross-expedition image: {photo}'
+  assert photo['src'].startswith(f'field-notes/{slug}/') or any(shared['original'].startswith(f'field-notes/{slug}/') and shared['retained']==photo['src'] for shared in shared_photos), f'Cross-expedition image: {photo}'
   assert (ROOT/'assets/photos'/photo['src']).is_file(), f'Missing rotation image: {photo}'
   assert photo['alt'] and photo['caption'], f'Missing accessible copy: {photo}'
 assert not errors,'\n'.join(errors)

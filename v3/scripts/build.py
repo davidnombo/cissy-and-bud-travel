@@ -41,7 +41,7 @@ for i,t in reversed(list(enumerate(trips))):
  if t['slug'] in ('great-western-loop','pch-ex'):card['facts']['Vehicle']='Ivan the minivanRV'
  summary='We traveled with Cassie\'s parents to discover the Pacific Northwest.' if t['slug']=='northwest-hot-lap' else t['summary']
  if t['slug']=='prius-utah-2019':summary='Spencer proposed a national-park trip from Denver to Las Vegas. We discovered that the drive itself could become the adventure.'
- if t['slug']=='northwest-hot-lap':image='field-notes/northwest-hot-lap/02-1f76383f.jpg';alt='Snow-covered mountain above evergreen trees'
+ if t['slug']=='northwest-hot-lap':image='gallery/47-577b8119.jpg';alt='Snow-covered mountain above evergreen trees'
  if t['slug']=='pch-ex':image='field-notes/pch-ex/44-0fa91611.jpg';alt='Waves crashing against rocks along the Pacific Coast'
  if t['slug']=='socoex':image='field-notes/socoex/79-a7de4831.jpg';alt='PourHouse overlooking the Southern Colorado high country'
  body+=f'<article class="expedition"><a class="expedition-photo" href="{t["slug"]}.html" aria-label="Read {esc(t["title"])}">{photo(image,alt,"../",i==0)}</a><div class="expedition-copy"><p class="kicker">Field Note / 0{i+1}</p><h2><a href="{t["slug"]}.html">{t["title"]}</a></h2>{facts(card)}<h3>{t["heading"]}</h3><p>{summary}</p>{link(t["slug"]+".html","Read the complete Field Note")}</div></article>'
